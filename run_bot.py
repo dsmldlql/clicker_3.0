@@ -127,7 +127,7 @@ def run_bot(bot_index: int, cfg_main: Dict, cfg_bots: Dict, base_dir: str):
             if frame is not None:
                 fsm.execute_step(bot, analyzer, frame)
 
-            time.sleep(0.5)  # Уменьшено с 1.0 до 0.5 для более быстрой реакции
+            time.sleep(2.0)  # Уменьшено с 1.0 до 0.5 для более быстрой реакции
     
     except KeyboardInterrupt:
         print(f"\n[*] Bot {bot_index}: Shutting down...")

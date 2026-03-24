@@ -14,7 +14,7 @@ bot_0:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1801, 1850]
+  row_range: [2101, 2150]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -44,7 +44,7 @@ bot_1:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1851, 1900]
+  row_range: [2151, 2200]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -73,7 +73,7 @@ bot_2:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1901, 1950]
+  row_range: [2201, 2250]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -102,7 +102,7 @@ bot_3:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1951, 2000]
+  row_range: [2251, 2300]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -131,7 +131,7 @@ bot_4:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [2001, 2050]
+  row_range: [2301, 2350]
   max_questions: 100
   restart_delay: 0
   proxy: [95.164.200.222, 9094, hkzcJK, 41j05w]
@@ -160,7 +160,7 @@ bot_5:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [2051, 2100]
+  row_range: [2351, 2400]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -191,7 +191,7 @@ bot_10:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 60.0
-  row_range: [1612, 1750]
+  row_range: [1651, 1750]
   max_questions: 250
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -301,7 +301,7 @@ bot_20:
   site: gemini
   mode: thinking
   model: gemini
-  scenario: thinking_1
+  scenario: thinking_0
   browser_master_profile: ~/vanthuan1990t@gmail.com
   dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
   columns:
@@ -340,7 +340,7 @@ bot_21:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [1360, 1500]
+  row_range: [1501, 1600]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]

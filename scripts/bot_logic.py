@@ -581,13 +581,13 @@ class FSM:
 
       # Клик по полю ввода
       bot.action_queue.put(('click', (x, y)))
-      time.sleep(1.0)  # Увеличенная пауза после клика
+      time.sleep(2.0)  # Увеличенная пауза после клика
 
       # Вставка из буфера
       try:
         # Вставляем текст через ctrl+v
         bot.action_queue.put(('hotkey', ['ctrl', 'v']))
-        time.sleep(1.0)  # Увеличенная пауза для вставки
+        time.sleep(2.0)  # Увеличенная пауза для вставки
 
         print(f"[+] [Бот {self.bot_id}] Текст вставлен")
       except Exception as e:
@@ -595,7 +595,7 @@ class FSM:
 
       # Нажатие Enter
       bot.action_queue.put(('key', 'Return'))
-      time.sleep(0.5)  # Пауза после Enter
+      time.sleep(1.0)  # Пауза после Enter
 
       # Логируем факт задавания вопроса
       bot.log_question_sent(bot.cur_global_idx, uid)

@@ -346,7 +346,7 @@ sites:
             next:
               success: options_menu_opened
               fail: if_fast
-            timeout: 20.0
+            timeout: 5.0
 
           if_fast:
             expect:
@@ -361,7 +361,7 @@ sites:
             next:
               success: options_menu_opened
               fail: start_question
-            timeout: 20.0
+            timeout: 5.0
 
           options_menu_opened:
             expect:

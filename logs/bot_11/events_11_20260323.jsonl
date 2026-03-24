@@ -1,0 +1,6 @@
+{"timestamp": "2026-03-23T21:50:27.939008", "bot_id": 11, "event_type": "BOT_START", "data": {"bot_id": 11, "project": "hypos_norm", "timestamp": "2026-03-23T21:50:27.938874", "log_dir": "/home/dmitrii/Documents/projects/clicker_3.0/logs/bot_11"}}
+{"timestamp": "2026-03-23T21:50:33.778810", "bot_id": 11, "event_type": "RESTART", "data": {"bot_id": 11, "note": "first_start"}}
+{"timestamp": "2026-03-23T21:50:33.779592", "bot_id": 11, "event_type": "FSM_INITIALIZED", "data": {"site": "gpt", "scenario": "web_search", "start_state": "start_question"}}
+{"timestamp": "2026-03-23T21:55:14.288331", "bot_id": 11, "event_type": "QUESTION_SENT", "data": {"question_idx": 1751, "uid": "07baa7a4-a884-49cf-93b1-45302da400f2"}}
+{"timestamp": "2026-03-23T22:04:33.683397", "bot_id": 11, "event_type": "QUESTION_SENT", "data": {"question_idx": 1751, "uid": "07baa7a4-a884-49cf-93b1-45302da400f2"}}
+{"timestamp": "2026-03-23T22:07:10.709598", "bot_id": 11, "event_type": "BOT_STOP", "data": {"bot_id": 11, "total_questions": 0}}

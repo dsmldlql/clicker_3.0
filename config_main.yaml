@@ -376,7 +376,7 @@ sites:
             next:
               success: ask_empty
               fail: start_question
-            timeout: 120.0
+            timeout: 10.0
 
           ask_empty:
             expect:
@@ -390,8 +390,38 @@ sites:
               threshold: 0.7
             next:
               success: answer_processing
+              fail: check_black_arrow
+            timeout: 20.0
+
+          check_black_arrow:
+            expect:
+              templates:
+                - templates/chromium/gemini/black_arrow.png
+              threshold: 0.7
+            action: mousemove
+            condition:
+              templates:
+                - templates/chromium/gemini/black_arrow.png
+              threshold: 0.7
+            next:
+              success: start_question
+              fail: check_stop
+            timeout: 10.0
+
+          check_stop:
+            expect:
+              templates:
+                - templates/chromium/gemini/stop_0.png
+              threshold: 0.7
+            action: mousemove
+            condition:
+              templates:
+                - templates/chromium/gemini/voice_mode_0.png
+              threshold: 0.7
+            next:
+              success: answer_processing
               fail: answer_processing
-            timeout: 120.0
+            timeout: 10.0
 
           answer_processing:
             expect:
@@ -406,7 +436,7 @@ sites:
             next:
               success: find_copy_button
               fail: start_question
-            timeout: 400.0
+            timeout: 200.0
 
           find_copy_button:
             expect:
@@ -421,7 +451,7 @@ sites:
             next:
               success: end_of_answer
               fail: start_question
-            timeout: 120.0
+            timeout: 20.0
 
           end_of_answer:
             expect:
@@ -492,9 +522,24 @@ sites:
                 - templates/chromium/gemini/voice_mode_0.png
               threshold: 0.7         
             next:
-              success: ask_json
+              success: close_dislike_options
               fail: start_question
             timeout: 120.0  
+
+          close_dislike_options:
+            expect:
+              templates:
+                - templates/chromium/gemini/dislike_close_space.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gemini/ask_gemini_after_dislike.png
+              threshold: 0.7
+            next:
+              success: ask_json
+              fail: start_question
+            timeout: 120.0
 
           ask_json:
             expect:
@@ -508,10 +553,112 @@ sites:
                 - templates/chromium/gemini/stop_0.png
               threshold: 0.7
             next:
-              success: answer_processing
+              success: answer_processing_1
               fail: start_question
             timeout: 120.0
 
+          answer_processing_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/voice_mode_0.png
+              threshold: 0.7
+            action: mousemove
+            condition:
+              templates:
+                - templates/chromium/gemini/more.png
+              threshold: 0.7
+            next:
+              success: find_copy_button_1
+              fail: start_question
+            timeout: 200.0
+
+          find_copy_button_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/more.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gemini/copy.png
+              threshold: 0.7
+            next:
+              success: end_of_answer_1
+              fail: start_question
+            timeout: 120.0
+
+          end_of_answer_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/copy.png
+              threshold: 0.7
+            action: click_copy_save_json_check
+            condition:
+              json_valid: true            
+            next:
+              success: find_like_button_1
+              fail: find_dislike_button_1
+            timeout: 120.0
+
+          find_like_button_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/more.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gemini/like.png
+              threshold: 0.7
+            next:
+              success: click_like_1
+              fail: start_question
+            timeout: 120.0
+
+          click_like_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/like.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gemini/voice_mode_0.png
+              threshold: 0.7         
+            next:
+              success: start_question
+              fail: start_question
+            timeout: 120.0          
+
+          find_dislike_button_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/more.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gemini/dislike.png
+              threshold: 0.7
+            next:
+              success: click_dislike_1
+              fail: start_question
+            timeout: 120.0
+
+          click_dislike_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/dislike.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gemini/voice_mode_0.png
+              threshold: 0.7         
+            next:
+              success: start_question
+              fail: start_question
+            timeout: 120.0  
 
       thinking_1:
         start_state: start_question
@@ -605,7 +752,7 @@ sites:
             next:
               success: find_copy_button
               fail: start_question
-            timeout: 400.0
+            timeout: 200.0
 
           find_copy_button:
             expect:

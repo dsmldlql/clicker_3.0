@@ -190,8 +190,8 @@ bot_10:
     - used
   roi: [0, 0, 960, 800]
   cooldown: 1.0
-  question_interval: 60.0
-  row_range: [1651, 1750]
+  question_interval: 50.0
+  row_range: [2081, 2290]
   max_questions: 250
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -220,8 +220,8 @@ bot_11:
     - used
   roi: [0, 0, 960, 800]
   cooldown: 1.0
-  question_interval: 55.0
-  row_range: [1751, 1900]
+  question_interval: 45.0
+  row_range: [2291, 2500]
   max_questions: 250
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -249,8 +249,8 @@ bot_12:
     - used
   roi: [0, 0, 960, 800]
   cooldown: 1.0
-  question_interval: 45.0
-  row_range: [2051, 2080]
+  question_interval: 52.0
+  row_range: [1731, 1750]
   max_questions: 50
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -278,9 +278,9 @@ bot_13:
     - used
   roi: [0, 0, 960, 800]
   cooldown: 1.0
-  question_interval: 55.0
-  row_range: [1901, 2050]
-  max_questions: 400
+  question_interval: 48.0
+  row_range: [2501, 2710]
+  max_questions: 250
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
   schedule:
@@ -303,7 +303,7 @@ bot_20:
   model: gemini
   scenario: thinking_0
   browser_master_profile: ~/vanthuan1990t@gmail.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
@@ -311,7 +311,7 @@ bot_20:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [1220, 1359]
+  row_range: [331, 350]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]
@@ -332,7 +332,7 @@ bot_21:
   model: gemini
   scenario: thinking_0
   browser_master_profile: ~/hoanghao1994hy@gmail.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
@@ -340,7 +340,7 @@ bot_21:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [1501, 1600]
+  row_range: [301, 330]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]

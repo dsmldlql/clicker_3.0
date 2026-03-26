@@ -270,19 +270,20 @@ class StateLogger:
           f"[{reason}] [total: {total_duration:.0f}ms, condition: {condition_time:.0f}ms]" +
           (f" [avg: {data.get('avg_duration_ms', 0):.0f}ms]" if data.get('avg_duration_ms') else ""))
   
-  def log_timeout(self, timeout_sec: float):
+  def log_timeout(self, timeout_sec: float, state: Optional[str] = None):
     """Логирует таймаут состояния"""
     elapsed = self._get_elapsed_ms(self.state_timer.start_time) if self.state_timer.start_time else 0
-    
+    state = state or self.current_state
+
     self._log_jsonl("STATE_TIMEOUT", {
-      "state": self.current_state,
+      "state": state,
       "timeout_sec": timeout_sec,
       "elapsed_ms": elapsed
     })
-    
-    self._update_state_stats(self.current_state, "exit", duration_ms=elapsed, success=False)
-    
-    print(f"[STATE] [{self.site}/{self.scenario}] ⏱ TIMEOUT '{self.current_state}' " +
+
+    self._update_state_stats(state, "exit", duration_ms=elapsed, success=False)
+
+    print(f"[STATE] [{self.site}/{self.scenario}] ⏱ TIMEOUT '{state}' " +
           f"[{elapsed:.0f}ms > {timeout_sec*1000:.0f}ms]")
   
   def log_error(self, error: str, details: Optional[Dict] = None):

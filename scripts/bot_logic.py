@@ -198,16 +198,20 @@ class FSM:
 
     # Проверка таймаута состояния
     if elapsed > timeout:
-      print(f"[!] [Бот {self.bot_id}] Таймаут состояния '{self.current_state}' ({elapsed:.1f}с > {timeout}с)")
-      # Логируем таймаут
-      self.state_logger.log_timeout(timeout)
+      # Сохраняем текущее состояние для логирования (до изменений)
+      timeout_state = self.current_state
       
+      print(f"[!] [Бот {self.bot_id}] Таймаут состояния '{self.current_state}' ({elapsed:.1f}с > {timeout}с)")
+      # Логируем таймаут с явным указанием состояния
+      self.state_logger.log_timeout(timeout, state=timeout_state)
+
       # Переход на fail state
       fail_state = cur_state_config['next'].get('fail', self.scenario['start_state'])
       next_state = fail_state
       self.state_logger.exit_state(success=False, next_state=next_state, reason='timeout')
-      
+
       self.current_state = fail_state
+      self.state_logger.enter_state(self.current_state, from_state=timeout_state)
       self.last_change = time.time()
       self.expected_complete = False
       # Сбрасываем флаг защиты от повторного выполнения

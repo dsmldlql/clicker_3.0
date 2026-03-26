@@ -52,7 +52,7 @@ ANSWERS_DIR = Path(__file__).parent.parent / "answers"
 #   FOLDERS_TO_INCLUDE = ["qwen", "gpt", "gemini"]  # Only 3 specific folders
 #   FOLDERS_TO_INCLUDE = ["perplexity_claude_sonnet", "perplexity_gemini", "perplexity_grok"]  # Only Perplexity
 # =============================================================================
-FOLDERS_TO_INCLUDE: Optional[List[str]] = ["qwen", "gpt", "gemini", "perplexity_claude_sonnet", "perplexity_grok"]
+FOLDERS_TO_INCLUDE: Optional[List[str]] = ["qwen", "gpt", "gemini"] #, "perplexity_claude_sonnet", "perplexity_grok"]
 # FOLDERS_TO_INCLUDE: Optional[List[str]] = None
 # =============================================================================
 

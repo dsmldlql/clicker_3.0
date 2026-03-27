@@ -955,13 +955,13 @@ class VirtualBotEnv:
       "--disable-software-rasterizer",
       "--disable-dev-shm-usage",
       #"--blink-settings=imagesEnabled=false",
-      "--disable-notifications",
-      "--mute-audio",
+      # "--disable-notifications",
+      # "--mute-audio",
       "--limit-fps=5",
       "--disable-blink-features=AutomationControlled",
       # Отключаем диалог прокси-аутентификации
-      "--disable-prompt-on-repost",
-      "--autoplay-policy=user-gesture-required",
+      # "--disable-prompt-on-repost",
+      # "--autoplay-policy=user-gesture-required",
       f"--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       url
     ])

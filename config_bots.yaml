@@ -6,7 +6,7 @@ bot_0:
   model: qwen
   scenario: web_search_no_think
   browser_master_profile: ~/karvinoir@gmail.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
@@ -14,7 +14,7 @@ bot_0:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [2101, 2150]
+  row_range: [300, 350]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -36,7 +36,7 @@ bot_1:
   model: qwen
   scenario: web_search_no_think
   browser_master_profile: ~/dsmldlql0@gmail.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
@@ -44,7 +44,7 @@ bot_1:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [2151, 2200]
+  row_range: [351, 400]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -65,7 +65,7 @@ bot_2:
   model: qwen
   scenario: web_search_no_think
   browser_master_profile: ~/alexanderborchun@gmail.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
@@ -73,7 +73,7 @@ bot_2:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [2201, 2250]
+  row_range: [401, 450]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -94,7 +94,7 @@ bot_3:
   model: qwen
   scenario: web_search_no_think
   browser_master_profile: ~/karvinior@gmail.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
@@ -102,7 +102,7 @@ bot_3:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [2251, 2300]
+  row_range: [451, 500]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -123,7 +123,7 @@ bot_4:
   model: qwen
   scenario: web_search_no_think
   browser_master_profile: ~/rxmzge8117@outlook.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
@@ -131,7 +131,7 @@ bot_4:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [2301, 2350]
+  row_range: [501, 550]
   max_questions: 100
   restart_delay: 0
   proxy: [95.164.200.222, 9094, hkzcJK, 41j05w]
@@ -152,7 +152,7 @@ bot_5:
   model: qwen
   scenario: web_search_no_think
   browser_master_profile: ~/dsmldlql@gmail.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
@@ -160,7 +160,7 @@ bot_5:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [2351, 2400]
+  row_range: [551, 600]
   max_questions: 100
   restart_delay: 0
   proxy: None
@@ -311,7 +311,7 @@ bot_20:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [331, 350]
+  row_range: [451, 500]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]
@@ -340,7 +340,7 @@ bot_21:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [301, 330]
+  row_range: [501, 550]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]

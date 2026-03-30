@@ -14,8 +14,8 @@ bot_0:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [300, 350]
-  max_questions: 100
+  row_range: [1101, 1150]
+  max_questions: 150
   restart_delay: 0
   proxy: None
   schedule:
@@ -44,8 +44,8 @@ bot_1:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [351, 400]
-  max_questions: 100
+  row_range: [1051, 1100]
+  max_questions: 150
   restart_delay: 0
   proxy: None
   schedule:
@@ -73,8 +73,8 @@ bot_2:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [401, 450]
-  max_questions: 100
+  row_range: [1001, 1050]
+  max_questions: 150
   restart_delay: 0
   proxy: None
   schedule:
@@ -102,8 +102,8 @@ bot_3:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [451, 500]
-  max_questions: 100
+  row_range: [951, 1000]
+  max_questions: 150
   restart_delay: 0
   proxy: None
   schedule:
@@ -131,8 +131,8 @@ bot_4:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [501, 550]
-  max_questions: 100
+  row_range: [901, 950]
+  max_questions: 150
   restart_delay: 0
   proxy: [95.164.200.222, 9094, hkzcJK, 41j05w]
   schedule:
@@ -160,8 +160,8 @@ bot_5:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [551, 600]
-  max_questions: 100
+  row_range: [851, 900]
+  max_questions: 150
   restart_delay: 0
   proxy: None
   schedule:
@@ -183,16 +183,16 @@ bot_10:
   model: gpt
   scenario: web_search
   browser_master_profile: ~/janskisheikh042@outlook.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
     - used
   roi: [0, 0, 960, 800]
   cooldown: 1.0
-  question_interval: 50.0
-  row_range: [2081, 2290]
-  max_questions: 250
+  question_interval: 180.0
+  row_range: [686, 815]
+  max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
   schedule:
@@ -213,16 +213,16 @@ bot_11:
   model: gpt
   scenario: web_search
   browser_master_profile: ~/halseycusenza35@outlook.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
     - used
   roi: [0, 0, 960, 800]
   cooldown: 1.0
-  question_interval: 45.0
-  row_range: [2291, 2500]
-  max_questions: 250
+  question_interval: 180.0
+  row_range: [926, 975]
+  max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
   schedule:
@@ -242,16 +242,16 @@ bot_12:
   model: gpt
   scenario: web_search
   browser_master_profile: ~/rxmzge8117@outlook.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
     - used
   roi: [0, 0, 960, 800]
   cooldown: 1.0
-  question_interval: 52.0
-  row_range: [1731, 1750]
-  max_questions: 50
+  question_interval: 180.0
+  row_range: [1131, 1150]
+  max_questions: 100
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
   schedule:
@@ -271,16 +271,16 @@ bot_13:
   model: gpt
   scenario: web_search
   browser_master_profile: ~/kacalbsullo03467p@outlook.com
-  dataset_path: datasets/sp_depers_final_with_hypnorm_used_marks.csv
+  dataset_path: datasets/sp_after_2000_good.csv
   columns:
     - uid
     - query
     - used
   roi: [0, 0, 960, 800]
   cooldown: 1.0
-  question_interval: 48.0
-  row_range: [2501, 2710]
-  max_questions: 250
+  question_interval: 180.0
+  row_range: [1101, 1150]
+  max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
   schedule:
@@ -311,7 +311,7 @@ bot_20:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [451, 500]
+  row_range: [903, 1001]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]
@@ -340,7 +340,7 @@ bot_21:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [501, 550]
+  row_range: [1002, 1150]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]

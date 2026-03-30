@@ -260,9 +260,144 @@ sites:
                 - templates/chromium/gpt/stop.png
               threshold: 0.7
             next:
-              success: answer_processing
+              success: answer_processing_1
+              fail: show_in_text_field_1
+            timeout: 120.0
+
+          show_in_text_field_1:
+            expect:
+              templates:
+                - templates/chromium/gpt/show_in_text_field.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gpt/white_arrow_up.png
+              threshold: 0.7
+            next:
+              success: white_arrow_up_1
               fail: start_question
             timeout: 120.0
+
+          white_arrow_up_1:
+            expect:
+              templates:
+                - templates/chromium/gpt/white_arrow_up.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gpt/stop.png
+              threshold: 0.7
+            next:
+              success: answer_processing_1
+              fail: answer_processing_1
+            timeout: 120.0
+
+          answer_processing_1:
+            expect:
+              templates:
+                - templates/chromium/gpt/voice_mode.png
+              threshold: 0.7
+            action: mousemove
+            condition:
+              templates:
+                - templates/chromium/gpt/voice_right_side.png
+              threshold: 0.7
+            next:
+              success: page_end_1
+              fail: start_question
+            timeout: 400.0
+
+          page_end_1:
+            expect:
+              templates:
+                - templates/chromium/gpt/voice_right_side.png
+              threshold: 0.7
+            action: click_ctrl_end
+            condition:
+              templates:
+                - templates/chromium/gpt/try_again_more.png
+              threshold: 0.7
+            next:
+              success: end_of_answer_1
+              fail: start_question
+            timeout: 300.0
+
+          end_of_answer_1:
+            expect:
+              templates:
+                - templates/chromium/gpt/copy.png
+              threshold: 0.7
+            action: click_copy_save_json_check
+            condition:
+              json_valid: true
+            next:
+              success: click_like_1
+              fail: click_dislike_1
+            timeout: 120.0
+
+          click_like_1:
+            expect:
+              templates:
+                - templates/chromium/gpt/like.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gpt/try_again_more.png
+              threshold: 0.7         
+            next:
+              success: start_question
+              fail: start_question
+            timeout: 120.0          
+
+          click_dislike_1:
+            expect:
+              templates:
+                - templates/chromium/gpt/dislike.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gpt/close_cross.png
+              threshold: 0.7         
+            next:
+              success: close_feedback_1
+              fail: start_question
+            timeout: 120.0  
+
+          close_feedback_:
+            expect:
+              templates:
+                - templates/chromium/gpt/close_cross.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gpt/try_again_more.png
+              threshold: 0.7         
+            next:
+              success: ask_json_1
+              fail: start_question
+            timeout: 120.0  
+
+          ask_json_1:
+            expect:
+              templates:
+                - templates/chromium/gpt/search_the_web.png
+              threshold: 0.7
+            action: click_paste_file_enter
+            file: prompts/gpt/ask_json  # ← путь к файлу
+            condition:
+              templates:
+                - templates/chromium/gpt/stop.png
+              threshold: 0.7
+            next:
+              success: start_question
+              fail: start_question
+            timeout: 120.0
+
 
           # try_again:
           #   expect:
@@ -1219,7 +1354,7 @@ sites:
             next:
               success: end_of_answer
               fail: page_end
-            timeout: 600.0
+            timeout: 300.0
 
           page_end:
             expect:
@@ -1233,8 +1368,23 @@ sites:
               threshold: 0.7
             next:
               success: end_of_answer
+              fail: black_arrow_down
+            timeout: 60.0
+
+          black_arrow_down:
+            expect:
+              templates:
+                - templates/chromium/qwen/black_arrow_down.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/qwen/regenerate.png
+              threshold: 0.7
+            next:
+              success: end_of_answer
               fail: start_question
-            timeout: 300.0
+            timeout: 60.0
 
           end_of_answer:
             expect:

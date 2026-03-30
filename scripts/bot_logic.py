@@ -200,7 +200,7 @@ class FSM:
     if elapsed > timeout:
       # Сохраняем текущее состояние для логирования (до изменений)
       timeout_state = self.current_state
-      
+
       print(f"[!] [Бот {self.bot_id}] Таймаут состояния '{self.current_state}' ({elapsed:.1f}с > {timeout}с)")
       # Логируем таймаут с явным указанием состояния
       self.state_logger.log_timeout(timeout, state=timeout_state)
@@ -209,6 +209,13 @@ class FSM:
       fail_state = cur_state_config['next'].get('fail', self.scenario['start_state'])
       next_state = fail_state
       self.state_logger.exit_state(success=False, next_state=next_state, reason='timeout')
+
+      # Если следующее состояние - start_question, выполняем reset браузера
+      if next_state == 'start_question':
+        print(f"[*] [Бот {self.bot_id}] Переход в start_question по таймауту - выполняем reset браузера")
+        self.reset_scenario(bot)
+        # reset_scenario уже обновил состояние, просто выходим
+        return
 
       self.current_state = fail_state
       self.state_logger.enter_state(self.current_state, from_state=timeout_state)
@@ -460,14 +467,21 @@ class FSM:
           # Выполняем переход в fail state (try_again) согласно конфигу
           next_state_key = 'fail'
           next_state = cur_state_config['next'].get(next_state_key, self.scenario['start_state'])
-          
+
           # Логируем выход из состояния и переход
           self.state_logger.exit_state(success=False, next_state=next_state, reason='normal')
-          
+
+          # Если следующее состояние - start_question, выполняем reset браузера
+          if next_state == 'start_question':
+            print(f"[*] [Бот {self.bot_id}] Переход в start_question (JSON не валиден, попытка #{bot.total_question_count}) - выполняем reset браузера")
+            self.reset_scenario(bot)
+            # reset_scenario уже обновил состояние, просто выходим
+            return
+
           prev_state = self.current_state
           self.current_state = next_state
           self.state_logger.enter_state(self.current_state, from_state=prev_state)
-          
+
           self.last_change = time.time()
           self.expected_complete = False
           # Сбрасываем флаг защиты от повторного выполнения

@@ -1,0 +1,536 @@
+2026-03-27 20:20:29,695 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 20:20:29,696 INFO supervisord started with pid 1
+2026-03-27 20:20:30,698 INFO spawned: 'xvfb' with pid 7
+2026-03-27 20:20:30,699 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 20:20:30,700 INFO spawned: 'vnc' with pid 9
+2026-03-27 20:20:30,701 INFO spawned: 'novnc' with pid 10
+2026-03-27 20:20:30,706 INFO spawned: 'bot0' with pid 11
+2026-03-27 20:20:31,274 WARN exited: fluxbox (terminated by SIGTERM; not expected)
+2026-03-27 20:20:31,791 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:20:31,791 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:20:31,791 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:20:31,791 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:20:31,791 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:20:32,793 INFO spawned: 'fluxbox' with pid 56
+2026-03-27 20:20:32,794 INFO spawned: 'vnc' with pid 57
+2026-03-27 20:20:34,686 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:20:34,686 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:22:07,533 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 20:22:07,534 INFO supervisord started with pid 1
+2026-03-27 20:22:08,537 INFO spawned: 'xvfb' with pid 7
+2026-03-27 20:22:08,538 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 20:22:08,539 INFO spawned: 'vnc' with pid 9
+2026-03-27 20:22:08,540 INFO spawned: 'novnc' with pid 10
+2026-03-27 20:22:08,545 INFO spawned: 'bot0' with pid 11
+2026-03-27 20:22:09,138 WARN exited: fluxbox (terminated by SIGTERM; not expected)
+2026-03-27 20:22:09,653 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:22:09,654 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:22:09,654 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:22:09,654 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:22:09,654 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:22:10,655 INFO spawned: 'fluxbox' with pid 56
+2026-03-27 20:22:10,657 INFO spawned: 'vnc' with pid 57
+2026-03-27 20:22:12,531 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:22:12,531 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:23:18,024 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 20:23:18,026 INFO supervisord started with pid 1
+2026-03-27 20:23:19,028 INFO spawned: 'xvfb' with pid 7
+2026-03-27 20:23:19,029 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 20:23:19,030 INFO spawned: 'vnc' with pid 9
+2026-03-27 20:23:19,031 INFO spawned: 'novnc' with pid 10
+2026-03-27 20:23:19,036 INFO spawned: 'bot0' with pid 11
+2026-03-27 20:23:19,637 WARN exited: fluxbox (terminated by SIGTERM; not expected)
+2026-03-27 20:23:20,153 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:23:20,153 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:23:20,153 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:23:20,153 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:23:20,153 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:23:21,156 INFO spawned: 'fluxbox' with pid 56
+2026-03-27 20:23:21,157 INFO spawned: 'vnc' with pid 57
+2026-03-27 20:23:23,035 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:23:23,035 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:40,038 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 20:51:40,039 INFO supervisord started with pid 1
+2026-03-27 20:51:41,041 INFO spawned: 'xvfb' with pid 7
+2026-03-27 20:51:41,042 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 20:51:41,043 INFO spawned: 'vnc' with pid 9
+2026-03-27 20:51:41,044 INFO spawned: 'novnc' with pid 10
+2026-03-27 20:51:41,051 INFO spawned: 'bot0' with pid 11
+2026-03-27 20:51:42,021 INFO reaped unknown pid 64 (exit status 141)
+2026-03-27 20:51:42,042 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:42,042 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:42,047 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:42,047 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:42,047 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:42,666 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:51:42,684 INFO spawned: 'fluxbox' with pid 79
+2026-03-27 20:51:42,684 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:51:42,689 INFO spawned: 'vnc' with pid 80
+2026-03-27 20:51:43,763 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:43,763 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:43,763 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:51:44,765 INFO spawned: 'bot0' with pid 107
+2026-03-27 20:51:46,316 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:46,325 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:51:46,342 INFO spawned: 'fluxbox' with pid 162
+2026-03-27 20:51:46,342 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:51:46,349 INFO spawned: 'vnc' with pid 163
+2026-03-27 20:51:46,417 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:51:46,418 INFO spawned: 'bot0' with pid 170
+2026-03-27 20:51:47,977 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:47,977 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:47,977 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:47,977 INFO reaped unknown pid 238 (exit status 0)
+2026-03-27 20:51:47,986 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:51:48,002 INFO spawned: 'fluxbox' with pid 245
+2026-03-27 20:51:48,003 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:51:48,008 INFO spawned: 'vnc' with pid 246
+2026-03-27 20:51:49,089 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:49,089 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:49,089 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:51:50,092 INFO spawned: 'bot0' with pid 273
+2026-03-27 20:51:51,639 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:51,639 INFO reaped unknown pid 321 (exit status 0)
+2026-03-27 20:51:51,648 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:51:51,664 INFO spawned: 'fluxbox' with pid 329
+2026-03-27 20:51:51,665 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:51:51,671 INFO spawned: 'vnc' with pid 330
+2026-03-27 20:51:51,752 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:51:51,753 INFO spawned: 'bot0' with pid 355
+2026-03-27 20:51:53,371 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:53,371 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:53,371 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:53,371 INFO reaped unknown pid 405 (exit status 0)
+2026-03-27 20:51:53,379 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:51:53,396 INFO spawned: 'fluxbox' with pid 412
+2026-03-27 20:51:53,396 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:51:53,402 INFO spawned: 'vnc' with pid 413
+2026-03-27 20:51:53,481 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:51:53,482 INFO spawned: 'bot0' with pid 438
+2026-03-27 20:51:55,039 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:55,039 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:55,039 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:55,039 INFO reaped unknown pid 487 (exit status 1)
+2026-03-27 20:51:55,048 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:51:55,066 INFO spawned: 'fluxbox' with pid 492
+2026-03-27 20:51:55,066 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:51:55,071 INFO spawned: 'vnc' with pid 493
+2026-03-27 20:51:56,160 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:56,160 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:56,160 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:51:57,163 INFO spawned: 'bot0' with pid 526
+2026-03-27 20:51:58,735 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:58,735 INFO reaped unknown pid 574 (exit status 0)
+2026-03-27 20:51:58,743 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:51:58,762 INFO spawned: 'fluxbox' with pid 581
+2026-03-27 20:51:58,763 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:51:58,767 INFO spawned: 'vnc' with pid 582
+2026-03-27 20:51:59,862 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:59,862 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:51:59,863 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:52:00,865 INFO spawned: 'bot0' with pid 615
+2026-03-27 20:52:02,444 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:02,444 INFO reaped unknown pid 663 (exit status 0)
+2026-03-27 20:52:02,453 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:52:02,469 INFO spawned: 'fluxbox' with pid 670
+2026-03-27 20:52:02,470 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:52:02,475 INFO spawned: 'vnc' with pid 671
+2026-03-27 20:52:02,553 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:52:02,554 INFO spawned: 'bot0' with pid 696
+2026-03-27 20:52:04,114 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:04,114 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:04,114 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:04,114 INFO reaped unknown pid 746 (exit status 0)
+2026-03-27 20:52:04,122 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:52:04,139 INFO spawned: 'fluxbox' with pid 753
+2026-03-27 20:52:04,140 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:52:04,145 INFO spawned: 'vnc' with pid 754
+2026-03-27 20:52:04,226 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:52:04,227 INFO spawned: 'bot0' with pid 779
+2026-03-27 20:52:05,778 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:05,778 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:05,778 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:05,778 INFO reaped unknown pid 832 (exit status 141)
+2026-03-27 20:52:05,786 WARN exited: fluxbox (terminated by SIGKILL; not expected)
+2026-03-27 20:52:05,802 INFO spawned: 'fluxbox' with pid 839
+2026-03-27 20:52:05,803 WARN exited: vnc (terminated by SIGKILL; not expected)
+2026-03-27 20:52:05,808 INFO spawned: 'vnc' with pid 840
+2026-03-27 20:52:06,896 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:06,896 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:06,896 WARN exited: bot0 (exit status 1; not expected)
+2026-03-27 20:52:07,899 INFO spawned: 'bot0' with pid 867
+2026-03-27 20:52:09,685 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:20,556 WARN received SIGTERM indicating exit request
+2026-03-27 20:52:20,557 INFO waiting for xvfb, fluxbox, vnc, novnc, bot0 to die
+2026-03-27 20:52:21,558 WARN stopped: bot0 (terminated by SIGTERM)
+2026-03-27 20:52:21,579 INFO stopped: novnc (exit status 0)
+2026-03-27 20:52:21,581 WARN stopped: vnc (exit status 2)
+2026-03-27 20:52:22,588 INFO stopped: fluxbox (exit status 0)
+2026-03-27 20:52:22,595 INFO stopped: xvfb (exit status 0)
+2026-03-27 20:52:23,025 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 20:52:23,027 INFO supervisord started with pid 1
+2026-03-27 20:52:24,029 INFO spawned: 'xvfb' with pid 7
+2026-03-27 20:52:24,030 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 20:52:24,031 INFO spawned: 'vnc' with pid 9
+2026-03-27 20:52:24,032 INFO spawned: 'novnc' with pid 10
+2026-03-27 20:52:24,033 INFO spawned: 'bot0' with pid 11
+2026-03-27 20:52:25,852 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:25,852 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:25,852 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:25,852 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:52:25,852 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:54:22,384 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 20:54:22,385 INFO supervisord started with pid 1
+2026-03-27 20:54:23,388 INFO spawned: 'xvfb' with pid 7
+2026-03-27 20:54:23,389 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 20:54:23,390 INFO spawned: 'vnc' with pid 9
+2026-03-27 20:54:23,391 INFO spawned: 'novnc' with pid 10
+2026-03-27 20:54:23,397 INFO spawned: 'bot0' with pid 11
+2026-03-27 20:54:23,398 INFO spawned: 'bot1' with pid 12
+2026-03-27 20:54:24,387 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:54:24,393 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:54:24,393 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:54:24,393 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:54:24,393 INFO success: bot0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:54:24,397 INFO success: bot1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:15,183 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 20:58:15,184 INFO supervisord started with pid 1
+2026-03-27 20:58:16,186 INFO spawned: 'xvfb' with pid 7
+2026-03-27 20:58:16,188 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 20:58:16,189 INFO spawned: 'vnc' with pid 9
+2026-03-27 20:58:16,190 INFO spawned: 'novnc' with pid 10
+2026-03-27 20:58:16,196 INFO spawned: 'bot' with pid 11
+2026-03-27 20:58:17,185 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:17,195 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:17,195 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:17,195 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:17,195 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:19,571 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 20:58:19,572 INFO supervisord started with pid 1
+2026-03-27 20:58:20,575 INFO spawned: 'xvfb' with pid 7
+2026-03-27 20:58:20,575 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 20:58:20,576 INFO spawned: 'vnc' with pid 9
+2026-03-27 20:58:20,577 INFO spawned: 'novnc' with pid 10
+2026-03-27 20:58:20,582 INFO spawned: 'bot' with pid 11
+2026-03-27 20:58:21,575 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:21,575 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:21,578 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:21,578 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:58:21,578 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:59:55,037 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 20:59:55,039 INFO supervisord started with pid 1
+2026-03-27 20:59:56,040 INFO spawned: 'xvfb' with pid 7
+2026-03-27 20:59:56,042 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 20:59:56,043 INFO spawned: 'vnc' with pid 9
+2026-03-27 20:59:56,044 INFO spawned: 'novnc' with pid 10
+2026-03-27 20:59:56,049 INFO spawned: 'bot' with pid 11
+2026-03-27 20:59:57,049 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:59:57,049 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:59:57,049 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:59:57,049 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 20:59:57,049 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:00,003 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:00:00,005 INFO supervisord started with pid 1
+2026-03-27 21:00:01,006 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:00:01,008 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:00:01,009 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:00:01,010 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:00:01,015 INFO spawned: 'bot' with pid 11
+2026-03-27 21:00:02,013 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:02,013 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:02,013 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:02,013 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:02,013 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:04,692 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:00:04,693 INFO supervisord started with pid 1
+2026-03-27 21:00:05,695 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:00:05,696 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:00:05,697 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:00:05,698 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:00:05,704 INFO spawned: 'bot' with pid 11
+2026-03-27 21:00:06,695 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:06,696 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:06,697 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:06,707 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:00:06,707 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:24,414 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:10:24,416 INFO supervisord started with pid 1
+2026-03-27 21:10:25,418 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:10:25,419 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:10:25,420 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:10:25,421 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:10:25,426 INFO spawned: 'bot' with pid 11
+2026-03-27 21:10:26,418 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:26,418 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:26,421 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:26,421 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:26,421 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:29,456 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:10:29,457 INFO supervisord started with pid 1
+2026-03-27 21:10:30,459 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:10:30,460 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:10:30,461 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:10:30,462 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:10:30,469 INFO spawned: 'bot' with pid 11
+2026-03-27 21:10:31,485 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:31,485 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:31,485 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:31,485 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:31,485 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:34,064 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:10:34,065 INFO supervisord started with pid 1
+2026-03-27 21:10:35,067 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:10:35,068 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:10:35,069 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:10:35,070 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:10:35,076 INFO spawned: 'bot' with pid 11
+2026-03-27 21:10:36,074 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:36,075 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:36,075 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:36,075 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:10:36,075 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:14:27,398 WARN received SIGTERM indicating exit request
+2026-03-27 21:14:27,398 INFO waiting for xvfb, fluxbox, vnc, novnc, bot to die
+2026-03-27 21:14:28,400 WARN stopped: bot (terminated by SIGTERM)
+2026-03-27 21:14:28,429 INFO stopped: novnc (exit status 0)
+2026-03-27 21:14:29,434 WARN stopped: vnc (exit status 2)
+2026-03-27 21:14:29,437 INFO stopped: fluxbox (exit status 0)
+2026-03-27 21:14:29,444 INFO stopped: xvfb (exit status 0)
+2026-03-27 21:14:29,875 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:14:29,877 INFO supervisord started with pid 1
+2026-03-27 21:14:30,879 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:14:30,881 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:14:30,882 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:14:30,883 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:14:30,885 INFO spawned: 'bot' with pid 11
+2026-03-27 21:14:31,970 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:14:31,970 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:14:31,970 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:14:31,970 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:14:31,970 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:16:08,537 WARN received SIGTERM indicating exit request
+2026-03-27 21:16:08,538 INFO waiting for xvfb, fluxbox, vnc, novnc, bot to die
+2026-03-27 21:16:09,539 WARN stopped: bot (terminated by SIGTERM)
+2026-03-27 21:16:09,570 INFO stopped: novnc (exit status 0)
+2026-03-27 21:16:10,574 WARN stopped: vnc (exit status 2)
+2026-03-27 21:16:10,578 INFO stopped: fluxbox (exit status 0)
+2026-03-27 21:16:10,585 INFO stopped: xvfb (exit status 0)
+2026-03-27 21:16:10,981 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:16:10,983 INFO supervisord started with pid 1
+2026-03-27 21:16:11,985 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:16:11,986 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:16:11,987 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:16:11,988 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:16:11,989 INFO spawned: 'bot' with pid 11
+2026-03-27 21:16:12,516 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:16:13,518 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:16:13,518 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:16:13,518 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:16:13,518 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:16:13,519 INFO spawned: 'bot' with pid 69
+2026-03-27 21:16:13,973 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:16:15,977 INFO spawned: 'bot' with pid 101
+2026-03-27 21:16:16,430 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:16:19,435 INFO spawned: 'bot' with pid 133
+2026-03-27 21:16:20,906 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:16:20,907 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:16:21,909 INFO spawned: 'bot' with pid 171
+2026-03-27 21:16:23,413 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:16:23,413 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:16:24,416 INFO spawned: 'bot' with pid 203
+2026-03-27 21:16:24,868 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:16:25,870 INFO spawned: 'bot' with pid 241
+2026-03-27 21:16:26,349 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:16:28,352 INFO spawned: 'bot' with pid 273
+2026-03-27 21:16:28,818 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:16:31,823 INFO spawned: 'bot' with pid 305
+2026-03-27 21:16:32,295 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:16:33,297 INFO gave up: bot entered FATAL state, too many start retries too quickly
+2026-03-27 21:17:02,022 WARN received SIGTERM indicating exit request
+2026-03-27 21:17:02,022 INFO waiting for xvfb, fluxbox, vnc, novnc to die
+2026-03-27 21:17:03,050 INFO stopped: novnc (exit status 0)
+2026-03-27 21:17:04,054 WARN stopped: vnc (exit status 2)
+2026-03-27 21:17:04,057 INFO stopped: fluxbox (exit status 0)
+2026-03-27 21:17:04,062 INFO stopped: xvfb (exit status 0)
+2026-03-27 21:17:04,451 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:17:04,452 INFO supervisord started with pid 1
+2026-03-27 21:17:05,455 INFO spawned: 'xvfb' with pid 8
+2026-03-27 21:17:05,456 INFO spawned: 'fluxbox' with pid 9
+2026-03-27 21:17:05,457 INFO spawned: 'vnc' with pid 10
+2026-03-27 21:17:05,458 INFO spawned: 'novnc' with pid 11
+2026-03-27 21:17:05,459 INFO spawned: 'bot' with pid 12
+2026-03-27 21:17:05,950 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:17:06,951 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:17:06,951 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:17:06,951 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:17:06,951 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:17:06,953 INFO spawned: 'bot' with pid 70
+2026-03-27 21:17:08,433 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:17:08,434 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:17:09,436 INFO spawned: 'bot' with pid 102
+2026-03-27 21:17:09,879 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:17:10,881 INFO spawned: 'bot' with pid 134
+2026-03-27 21:17:11,322 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:17:13,327 INFO spawned: 'bot' with pid 166
+2026-03-27 21:17:13,817 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:17:16,821 INFO spawned: 'bot' with pid 204
+2026-03-27 21:17:17,275 WARN exited: bot (exit status 1; not expected)
+2026-03-27 21:17:18,276 INFO gave up: bot entered FATAL state, too many start retries too quickly
+2026-03-27 21:17:58,328 WARN received SIGTERM indicating exit request
+2026-03-27 21:17:58,328 INFO waiting for xvfb, fluxbox, vnc, novnc to die
+2026-03-27 21:17:59,357 INFO stopped: novnc (exit status 0)
+2026-03-27 21:17:59,360 WARN stopped: vnc (exit status 2)
+2026-03-27 21:17:59,365 INFO stopped: fluxbox (exit status 0)
+2026-03-27 21:17:59,371 INFO stopped: xvfb (exit status 0)
+2026-03-27 21:17:59,742 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:17:59,744 INFO supervisord started with pid 1
+2026-03-27 21:18:00,746 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:18:00,747 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:18:00,748 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:18:00,749 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:18:00,750 INFO spawned: 'bot' with pid 11
+2026-03-27 21:18:02,626 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:18:02,626 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:18:02,626 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:18:02,626 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:18:02,626 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:19:58,072 WARN received SIGTERM indicating exit request
+2026-03-27 21:19:58,072 INFO waiting for xvfb, fluxbox, vnc, novnc, bot to die
+2026-03-27 21:19:59,074 WARN stopped: bot (terminated by SIGTERM)
+2026-03-27 21:19:59,105 INFO stopped: novnc (exit status 0)
+2026-03-27 21:20:00,111 WARN stopped: vnc (exit status 2)
+2026-03-27 21:20:00,113 INFO stopped: fluxbox (exit status 0)
+2026-03-27 21:20:00,121 INFO stopped: xvfb (exit status 0)
+2026-03-27 21:20:00,558 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:20:00,559 INFO supervisord started with pid 1
+2026-03-27 21:20:01,561 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:20:01,562 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:20:01,563 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:20:01,564 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:20:01,565 INFO spawned: 'bot' with pid 11
+2026-03-27 21:20:02,741 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:20:02,741 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:20:02,741 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:20:02,741 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:20:02,741 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:22:15,639 WARN received SIGTERM indicating exit request
+2026-03-27 21:22:15,639 INFO waiting for xvfb, fluxbox, vnc, novnc, bot to die
+2026-03-27 21:22:16,641 WARN stopped: bot (terminated by SIGTERM)
+2026-03-27 21:22:16,677 INFO stopped: novnc (exit status 0)
+2026-03-27 21:22:17,681 WARN stopped: vnc (exit status 2)
+2026-03-27 21:22:17,686 INFO stopped: fluxbox (exit status 0)
+2026-03-27 21:22:17,694 INFO stopped: xvfb (exit status 0)
+2026-03-27 21:22:18,061 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:22:18,062 INFO supervisord started with pid 1
+2026-03-27 21:22:19,064 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:22:19,065 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:22:19,067 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:22:19,067 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:22:19,068 INFO spawned: 'bot' with pid 11
+2026-03-27 21:22:20,944 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:22:20,944 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:22:20,944 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:22:20,944 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:22:20,944 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:23:02,186 INFO reaped unknown pid 124 (exit status 0)
+2026-03-27 21:23:02,186 INFO reaped unknown pid 126 (exit status 0)
+2026-03-27 21:23:02,186 INFO reaped unknown pid 129 (exit status 0)
+2026-03-27 21:23:02,186 INFO reaped unknown pid 130 (exit status 0)
+2026-03-27 21:23:15,669 WARN received SIGTERM indicating exit request
+2026-03-27 21:23:15,669 INFO waiting for xvfb, fluxbox, vnc, novnc, bot to die
+2026-03-27 21:23:16,679 WARN stopped: bot (terminated by SIGTERM)
+2026-03-27 21:23:16,680 INFO reaped unknown pid 69 (exit status 0)
+2026-03-27 21:23:16,704 INFO stopped: novnc (exit status 0)
+2026-03-27 21:23:17,708 WARN stopped: vnc (exit status 2)
+2026-03-27 21:23:18,712 INFO stopped: fluxbox (exit status 0)
+2026-03-27 21:23:18,713 INFO waiting for xvfb to die
+2026-03-27 21:23:18,720 INFO stopped: xvfb (exit status 0)
+2026-03-27 21:23:19,108 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:23:19,109 INFO supervisord started with pid 1
+2026-03-27 21:23:20,112 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:23:20,113 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:23:20,114 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:23:20,115 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:23:20,116 INFO spawned: 'bot' with pid 11
+2026-03-27 21:23:21,994 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:23:21,994 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:23:21,994 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:23:21,994 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:23:21,994 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:24:32,516 WARN received SIGTERM indicating exit request
+2026-03-27 21:24:32,517 INFO waiting for xvfb, fluxbox, vnc, novnc, bot to die
+2026-03-27 21:24:33,519 WARN stopped: bot (terminated by SIGTERM)
+2026-03-27 21:24:33,545 INFO stopped: novnc (exit status 0)
+2026-03-27 21:24:33,548 WARN stopped: vnc (exit status 2)
+2026-03-27 21:24:34,556 INFO stopped: fluxbox (exit status 0)
+2026-03-27 21:24:34,566 INFO stopped: xvfb (exit status 0)
+2026-03-27 21:27:51,029 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:27:51,030 INFO supervisord started with pid 1
+2026-03-27 21:27:52,033 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:27:52,034 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:27:52,035 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:27:52,036 INFO spawned: 'novnc' with pid 10
+2026-03-27 21:27:52,037 INFO spawned: 'bot' with pid 11
+2026-03-27 21:27:53,976 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:27:53,976 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:27:53,976 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:27:53,976 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:27:53,976 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:31:13,504 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:31:13,505 INFO supervisord started with pid 1
+2026-03-27 21:31:14,508 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:31:14,509 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:31:14,510 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:31:14,514 INFO spawned: 'extensions' with pid 10
+2026-03-27 21:31:14,516 INFO spawned: 'novnc' with pid 11
+2026-03-27 21:31:14,517 INFO spawned: 'bot' with pid 12
+2026-03-27 21:31:14,521 WARN exited: extensions (exit status 0; not expected)
+2026-03-27 21:31:15,450 INFO reaped unknown pid 73 (exit status 0)
+2026-03-27 21:31:15,450 INFO reaped unknown pid 75 (exit status 0)
+2026-03-27 21:31:15,450 INFO reaped unknown pid 78 (exit status 0)
+2026-03-27 21:31:15,450 INFO reaped unknown pid 79 (exit status 0)
+2026-03-27 21:31:15,675 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:31:15,675 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:31:15,676 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:31:15,677 INFO spawned: 'extensions' with pid 119
+2026-03-27 21:31:15,677 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:31:15,677 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:31:15,684 WARN exited: extensions (exit status 0; not expected)
+2026-03-27 21:31:18,366 INFO spawned: 'extensions' with pid 124
+2026-03-27 21:31:18,374 WARN exited: extensions (exit status 0; not expected)
+2026-03-27 21:31:21,518 INFO spawned: 'extensions' with pid 129
+2026-03-27 21:31:21,527 WARN exited: extensions (exit status 0; not expected)
+2026-03-27 21:31:21,725 INFO gave up: extensions entered FATAL state, too many start retries too quickly
+2026-03-27 21:32:00,265 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 21:32:00,266 INFO supervisord started with pid 1
+2026-03-27 21:32:01,268 INFO spawned: 'xvfb' with pid 7
+2026-03-27 21:32:01,269 INFO spawned: 'fluxbox' with pid 8
+2026-03-27 21:32:01,271 INFO spawned: 'vnc' with pid 9
+2026-03-27 21:32:01,275 INFO spawned: 'extensions' with pid 10
+2026-03-27 21:32:01,277 INFO spawned: 'novnc' with pid 11
+2026-03-27 21:32:01,279 INFO spawned: 'bot' with pid 12
+2026-03-27 21:32:01,835 INFO reaped unknown pid 71 (exit status 0)
+2026-03-27 21:32:01,835 INFO reaped unknown pid 73 (exit status 0)
+2026-03-27 21:32:01,835 INFO reaped unknown pid 76 (exit status 0)
+2026-03-27 21:32:01,835 INFO reaped unknown pid 77 (exit status 0)
+2026-03-27 21:32:01,858 WARN exited: extensions (exit status 0; not expected)
+2026-03-27 21:32:02,269 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:32:02,270 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:32:02,270 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:32:02,454 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:32:02,454 INFO success: bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 21:32:03,699 INFO spawned: 'extensions' with pid 117
+2026-03-27 21:32:03,706 WARN exited: extensions (exit status 0; not expected)
+2026-03-27 21:32:06,635 INFO spawned: 'extensions' with pid 120
+2026-03-27 21:32:06,641 WARN exited: extensions (exit status 0; not expected)
+2026-03-27 21:32:09,793 INFO spawned: 'extensions' with pid 123
+2026-03-27 21:32:09,799 WARN exited: extensions (exit status 0; not expected)
+2026-03-27 21:32:10,002 INFO gave up: extensions entered FATAL state, too many start retries too quickly
+2026-03-27 21:37:20,007 WARN received SIGTERM indicating exit request
+2026-03-27 21:37:20,008 INFO waiting for xvfb, fluxbox, vnc, novnc, bot to die
+2026-03-27 21:37:20,021 INFO reaped unknown pid 48 (exit status 21)
+2026-03-27 21:37:20,021 WARN stopped: bot (terminated by SIGTERM)
+2026-03-27 21:37:20,038 INFO stopped: novnc (exit status 0)
+2026-03-27 21:37:21,043 WARN stopped: vnc (exit status 2)
+2026-03-27 21:37:21,050 INFO stopped: fluxbox (exit status 0)
+2026-03-27 21:37:22,060 INFO stopped: xvfb (exit status 0)

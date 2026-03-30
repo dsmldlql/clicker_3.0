@@ -1,4 +1,9 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|общий||ГК РФ|249|||1|1|gpt
-622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|общий||ГК РФ|210|||1|1|gpt
-622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|общий||ГК РФ|395|||1|1|gpt
+622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|общий||ГК РФ|249|||4|4|gemini;gpt;grok;qwen
+622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|общий||ГК РФ|395|||4|4|gemini;gpt;grok;qwen
+622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|общий||ГК РФ|210|||2|4|gemini;gpt
+622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|специальный||ЖК РФ|153|||2|4|gemini;grok
+622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|общий||ЖК РФ||||1|4|qwen
+622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|общий||ГК РФ|1102|||1|4|grok
+622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|специальный||ГК РФ|1107|||1|4|grok
+622|752f8915-8968-4b06-b8d1-d0dd2e8faa19|общий||ГК РФ|325|||1|4|gemini

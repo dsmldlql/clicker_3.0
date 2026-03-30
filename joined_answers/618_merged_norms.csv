@@ -1,3 +1,8 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-618|0eb42c37-ef2e-4f5d-b993-edc1bf175d78|специальный|63|УП РФ|||23.01.2024|1|1|gpt
-618|0eb42c37-ef2e-4f5d-b993-edc1bf175d78|общий|256-ФЗ|ФЗ|1||29.12.2006|1|1|gpt
+618|0eb42c37-ef2e-4f5d-b993-edc1bf175d78|общий|63|УП РФ|1||23.01.2024|3|4|gemini;grok;qwen
+618|0eb42c37-ef2e-4f5d-b993-edc1bf175d78|общий|63|УП РФ|2||23.01.2024|3|4|gemini;grok;qwen
+618|0eb42c37-ef2e-4f5d-b993-edc1bf175d78|общий||НК РФ|218|||3|4|gemini;grok;qwen
+618|0eb42c37-ef2e-4f5d-b993-edc1bf175d78|общий|256-ФЗ|ФЗ|1||29.12.2006|2|4|gpt;grok
+618|0eb42c37-ef2e-4f5d-b993-edc1bf175d78|общий|63|УП РФ|4||23.01.2024|1|4|qwen
+618|0eb42c37-ef2e-4f5d-b993-edc1bf175d78|специальный|179-ФЗ|ФЗ|1||27.07.2024|1|4|qwen
+618|0eb42c37-ef2e-4f5d-b993-edc1bf175d78|специальный|63|УП РФ|||23.01.2024|1|4|gpt

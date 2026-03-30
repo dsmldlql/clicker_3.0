@@ -1,10 +1,14 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГК РФ|1064|||2|2|gpt;qwen
-581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный||ГК РФ|1079|||2|2|gpt;qwen
-581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный|40-ФЗ|ФЗ|4||25.04.2002|2|2|gpt;qwen
-581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГК РФ|15|||1|2|qwen
-581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный||ГК РФ|1072|||1|2|qwen
-581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный||КоАП РФ|12.37|||1|2|qwen
-581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГПК РФ|28|||1|2|qwen
-581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГК РФ|196|||1|2|qwen
-581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный|40-ФZ|ФЗ|3||25.04.2002|1|2|gpt
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГК РФ|1064|||4|4|gemini;gpt;grok;qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный|40-ФЗ|ФЗ|4||25.04.2002|4|4|gemini;gpt;grok;qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГК РФ|15|||3|4|gemini;grok;qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГК РФ|1079|||3|4|gemini;gpt;grok
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный||ГК РФ|1072|||2|4|grok;qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный||КоАП РФ|12.37|||2|4|grok;qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГПК РФ|28|||2|4|grok;qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный|40-ФЗ|ФЗ|14.1||25.04.2002|1|4|qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГПК РФ|23|||1|4|qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГПК РФ|131|||1|4|qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий|58|Постановление Пленума ВС РФ|||26.12.2017|1|4|qwen
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|специальный|40-ФZ|ФЗ|3||25.04.2002|1|4|gpt
+581|78ff8782-f2f4-4dea-bc6d-3168f7dd94ff|общий||ГК РФ|196|||1|4|grok

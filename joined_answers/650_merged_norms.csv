@@ -1,5 +1,15 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ЖК РФ|161|||1|1|gpt
-650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ЖК РФ|162|||1|1|gpt
-650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||КоАП РФ|19.13|||1|1|gpt
-650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ГК РФ|1064|||1|1|gpt
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ГК РФ|1064|||4|4|gemini;gpt;grok;qwen
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ЖК РФ|3|||2|4|grok;qwen
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|специальный|491|ПП РФ||10|13.08.2006|2|4|grok;qwen
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ЖК РФ|161|||2|4|gpt;grok
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ЖК РФ|30|||2|4|gemini;grok
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|специальный|354|ПП РФ||152|06.05.2011|2|4|gemini;grok
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ГК РФ|15|||1|4|qwen
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|специальный|491|ПП РФ||17|13.08.2006|1|4|qwen
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|специальный|354|ПП РФ||31|06.05.2011|1|4|qwen
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ЖК РФ|162|||1|4|gpt
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||КоАП РФ|19.13|||1|4|gpt
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|общий||ГК РФ|1079|||1|4|grok
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|специальный|354|ПП РФ||34|06.05.2011|1|4|gemini
+650|3730ac58-4ffd-4cbc-a073-14da0ba97ce1|специальный|491|ПП РФ||5|13.08.2006|1|4|gemini

@@ -1,3 +1,6 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-613|d3bb09e2-c2a6-47b3-9d70-6ebd9a26ff47|общий|173-ФЗ|ФЗ|12||10.12.2003|1|1|gpt
-613|d3bb09e2-c2a6-47b3-9d70-6ebd9a26ff47|общий|173-ФЗ|ФЗ|28||10.12.2003|1|1|gpt
+613|d3bb09e2-c2a6-47b3-9d70-6ebd9a26ff47|специальный|173-ФЗ|ФЗ|12||10.12.2003|4|4|gemini;gpt;grok;qwen
+613|d3bb09e2-c2a6-47b3-9d70-6ebd9a26ff47|специальный||КоАП РФ|15.25|||3|4|gemini;grok;qwen
+613|d3bb09e2-c2a6-47b3-9d70-6ebd9a26ff47|специальный|СД-7-14/349@|Приказ ФНС России|||26.04.2024|2|4|grok;qwen
+613|d3bb09e2-c2a6-47b3-9d70-6ebd9a26ff47|общий|173-ФЗ|ФЗ|1||10.12.2003|1|4|qwen
+613|d3bb09e2-c2a6-47b3-9d70-6ebd9a26ff47|общий|173-ФЗ|ФЗ|28||10.12.2003|1|4|gpt

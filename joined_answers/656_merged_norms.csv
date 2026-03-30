@@ -1,4 +1,9 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|30.3|||1|1|gpt
-656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|30.1|||1|1|gpt
-656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|26.7|||1|1|gpt
+656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|30.1|||4|4|gemini;gpt;grok;qwen
+656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|30.3|||4|4|gemini;gpt;grok;qwen
+656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|30.2|||3|4|gemini;grok;qwen
+656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|30.5|||2|4|grok;qwen
+656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|30.7|||2|4|grok;qwen
+656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|30.9|||1|4|qwen
+656|ed922fa6-37b2-410b-8bc2-85b16ea62811|специальный||КоАП РФ|8.19|||1|4|qwen
+656|ed922fa6-37b2-410b-8bc2-85b16ea62811|общий||КоАП РФ|26.7|||1|4|gpt

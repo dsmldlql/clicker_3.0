@@ -14,7 +14,7 @@ bot_0:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1101, 1150]
+  row_range: [1151, 1200]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -44,7 +44,7 @@ bot_1:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1051, 1100]
+  row_range: [1201, 1250]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -73,7 +73,7 @@ bot_2:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1001, 1050]
+  row_range: [1251, 1300]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -102,7 +102,7 @@ bot_3:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [951, 1000]
+  row_range: [1301, 1350]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -131,7 +131,7 @@ bot_4:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [901, 950]
+  row_range: [1351, 1400]
   max_questions: 150
   restart_delay: 0
   proxy: [95.164.200.222, 9094, hkzcJK, 41j05w]
@@ -160,7 +160,7 @@ bot_5:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [851, 900]
+  row_range: [1401, 1450]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -250,7 +250,7 @@ bot_12:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 200.0
-  row_range: [1511, 1550]
+  row_range: [1551, 1580]
   max_questions: 100
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -311,7 +311,7 @@ bot_20:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [1151, 1250]
+  row_range: [1401, 1450]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]
@@ -340,7 +340,7 @@ bot_21:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [1251, 1350]
+  row_range: [1344, 1400]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]
@@ -356,7 +356,7 @@ bot_21:
 
 
 
-bot_3_:
+bot_30:
   project: hypos_norm
   subproject: gen
   site: claude
@@ -372,7 +372,7 @@ bot_3_:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 150
-  row_range: [950, 1199]
+  row_range: [1151, 1162]
   max_questions: 300
   restart_delay: None
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -384,7 +384,7 @@ bot_3_:
       - "12:00"
       - "18:00"
 
-bot_4_:
+bot_31:
   project: hypos_norm
   subproject: gen
   site: claude
@@ -400,7 +400,7 @@ bot_4_:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 150
-  row_range: [324, 325]
+  row_range: [1163, 1175]
   max_questions: 100
   restart_delay: None
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -412,7 +412,7 @@ bot_4_:
       - "12:00"
       - "18:00"
 
-bot_5_:
+bot_32:
   project: hypos_norm
   subproject: gen
   site: claude
@@ -428,7 +428,7 @@ bot_5_:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 150
-  row_range: [337, 337]
+  row_range: [1176, 1188]
   max_questions: 100
   restart_delay: None
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -440,7 +440,7 @@ bot_5_:
       - "12:00"
       - "18:00"
 
-bot_6_:
+bot_33:
   project: hypos_norm
   subproject: gen
   site: claude
@@ -456,7 +456,7 @@ bot_6_:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 150
-  row_range: [338, 338]
+  row_range: [1189, 1200]
   max_questions: 100
   restart_delay: None
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]

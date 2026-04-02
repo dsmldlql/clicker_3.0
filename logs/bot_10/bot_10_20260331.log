@@ -250,3 +250,22 @@
 2026-03-31 17:34:01 | INFO     | [QUESTION_ATTEMPT] {"attempt": 96, "max_questions": 300, "question_idx": 1965, "uid": "c3616508-823e-48e2-b51c-d50dc1f98e37"}
 2026-03-31 17:36:43 | INFO     | [QUESTION_SENT] {"question_idx": 1966, "uid": "694d0fee-065a-457c-95d6-791078f5a3ec"}
 2026-03-31 17:38:17 | INFO     | [BOT_STOP] {"bot_id": 10, "total_questions": 96}
+2026-03-31 20:35:23 | INFO     | [BOT_START] {"bot_id": 10, "project": "hypos_norm", "timestamp": "2026-03-31T20:35:23.669497", "log_dir": "/home/dmitrii/Documents/projects/clicker_3.0/logs/bot_10"}
+2026-03-31 20:35:29 | INFO     | [RESTART] {"bot_id": 10, "note": "first_start"}
+2026-03-31 20:35:29 | INFO     | [FSM_INITIALIZED] {"site": "gpt", "scenario": "web_search", "start_state": "start_question"}
+2026-03-31 20:41:42 | INFO     | [BOT_START] {"bot_id": 10, "project": "hypos_norm", "timestamp": "2026-03-31T20:41:42.586297", "log_dir": "/home/dmitrii/Documents/projects/clicker_3.0/logs/bot_10"}
+2026-03-31 20:41:48 | INFO     | [RESTART] {"bot_id": 10, "note": "first_start"}
+2026-03-31 20:41:48 | INFO     | [FSM_INITIALIZED] {"site": "gpt", "scenario": "web_search", "start_state": "start_question"}
+2026-03-31 20:42:43 | INFO     | [QUESTION_SENT] {"question_idx": 1966, "uid": "694d0fee-065a-457c-95d6-791078f5a3ec"}
+2026-03-31 20:43:18 | INFO     | [QUESTION_ATTEMPT] {"attempt": 1, "max_questions": 300, "question_idx": 1966, "uid": "694d0fee-065a-457c-95d6-791078f5a3ec"}
+2026-03-31 20:46:19 | INFO     | [QUESTION_SENT] {"question_idx": 1967, "uid": "ff162cff-2e31-4d86-96a2-a373ec61d34a"}
+2026-03-31 20:47:00 | INFO     | [QUESTION_ATTEMPT] {"attempt": 2, "max_questions": 300, "question_idx": 1967, "uid": "ff162cff-2e31-4d86-96a2-a373ec61d34a"}
+2026-03-31 20:49:55 | INFO     | [QUESTION_SENT] {"question_idx": 1968, "uid": "8f06292e-7f08-474d-b5b7-73a49ab7e8e0"}
+2026-03-31 20:50:29 | INFO     | [QUESTION_ATTEMPT] {"attempt": 3, "max_questions": 300, "question_idx": 1968, "uid": "8f06292e-7f08-474d-b5b7-73a49ab7e8e0"}
+2026-03-31 20:53:30 | INFO     | [QUESTION_SENT] {"question_idx": 1969, "uid": "c5e5e901-cc4d-41cd-b1b0-41041d053d10"}
+2026-03-31 20:54:03 | INFO     | [QUESTION_ATTEMPT] {"attempt": 4, "max_questions": 300, "question_idx": 1969, "uid": "c5e5e901-cc4d-41cd-b1b0-41041d053d10"}
+2026-03-31 20:57:05 | INFO     | [QUESTION_SENT] {"question_idx": 1970, "uid": "71c28cc3-5664-404f-8946-e9797d84c406"}
+2026-03-31 20:57:38 | INFO     | [QUESTION_ATTEMPT] {"attempt": 5, "max_questions": 300, "question_idx": 1970, "uid": "71c28cc3-5664-404f-8946-e9797d84c406"}
+2026-03-31 20:57:50 | INFO     | [QUESTION_SENT] {"question_idx": 1970, "uid": "71c28cc3-5664-404f-8946-e9797d84c406"}
+2026-03-31 20:58:16 | INFO     | [QUESTION_ATTEMPT] {"attempt": 6, "max_questions": 300, "question_idx": 1970, "uid": "71c28cc3-5664-404f-8946-e9797d84c406"}
+2026-03-31 20:58:17 | INFO     | [BOT_STOP] {"bot_id": 10, "total_questions": 6}

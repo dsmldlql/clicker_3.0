@@ -241,3 +241,33 @@
 2026-03-31 17:36:07 | INFO     | [QUESTION_SENT] {"question_idx": 1858, "uid": "e016f0ce-c71d-4c06-ba99-837638b81045"}
 2026-03-31 17:36:58 | INFO     | [QUESTION_ATTEMPT] {"attempt": 115, "max_questions": 300, "question_idx": 1858, "uid": "e016f0ce-c71d-4c06-ba99-837638b81045"}
 2026-03-31 17:38:25 | INFO     | [BOT_STOP] {"bot_id": 13, "total_questions": 115}
+2026-03-31 20:39:19 | INFO     | [BOT_START] {"bot_id": 13, "project": "hypos_norm", "timestamp": "2026-03-31T20:39:19.900290", "log_dir": "/home/dmitrii/Documents/projects/clicker_3.0/logs/bot_13"}
+2026-03-31 20:39:25 | INFO     | [RESTART] {"bot_id": 13, "note": "first_start"}
+2026-03-31 20:39:25 | INFO     | [FSM_INITIALIZED] {"site": "gpt", "scenario": "web_search", "start_state": "start_question"}
+2026-03-31 20:40:15 | INFO     | [QUESTION_SENT] {"question_idx": 1859, "uid": "61c87540-3768-4f9f-896d-8c7e47d8f83f"}
+2026-03-31 20:40:47 | INFO     | [QUESTION_ATTEMPT] {"attempt": 1, "max_questions": 300, "question_idx": 1859, "uid": "61c87540-3768-4f9f-896d-8c7e47d8f83f"}
+2026-03-31 20:43:48 | INFO     | [QUESTION_SENT] {"question_idx": 1860, "uid": "d14b2995-7274-4822-bdf6-5cc98fe8aafa"}
+2026-03-31 20:44:18 | INFO     | [QUESTION_ATTEMPT] {"attempt": 2, "max_questions": 300, "question_idx": 1860, "uid": "d14b2995-7274-4822-bdf6-5cc98fe8aafa"}
+2026-03-31 20:47:21 | INFO     | [QUESTION_SENT] {"question_idx": 1861, "uid": "1cc52967-f2bb-479e-8748-e48e64854f6c"}
+2026-03-31 20:47:51 | INFO     | [QUESTION_ATTEMPT] {"attempt": 3, "max_questions": 300, "question_idx": 1861, "uid": "1cc52967-f2bb-479e-8748-e48e64854f6c"}
+2026-03-31 20:50:54 | INFO     | [QUESTION_SENT] {"question_idx": 1862, "uid": "c223ba17-831e-4a5c-be38-222839b1bc99"}
+2026-03-31 20:51:30 | INFO     | [QUESTION_ATTEMPT] {"attempt": 4, "max_questions": 300, "question_idx": 1862, "uid": "c223ba17-831e-4a5c-be38-222839b1bc99"}
+2026-03-31 20:54:27 | INFO     | [QUESTION_SENT] {"question_idx": 1863, "uid": "1c2fee89-35ef-4885-b0e9-cbb7defef5ec"}
+2026-03-31 20:54:53 | INFO     | [QUESTION_ATTEMPT] {"attempt": 5, "max_questions": 300, "question_idx": 1863, "uid": "1c2fee89-35ef-4885-b0e9-cbb7defef5ec"}
+2026-03-31 20:55:05 | INFO     | [QUESTION_SENT] {"question_idx": 1863, "uid": "1c2fee89-35ef-4885-b0e9-cbb7defef5ec"}
+2026-03-31 20:55:23 | INFO     | [QUESTION_ATTEMPT] {"attempt": 6, "max_questions": 300, "question_idx": 1863, "uid": "1c2fee89-35ef-4885-b0e9-cbb7defef5ec"}
+2026-03-31 20:58:41 | INFO     | [QUESTION_SENT] {"question_idx": 1864, "uid": "a0102893-120f-43e4-be12-597b5828c86f"}
+2026-03-31 20:59:15 | INFO     | [QUESTION_ATTEMPT] {"attempt": 7, "max_questions": 300, "question_idx": 1864, "uid": "a0102893-120f-43e4-be12-597b5828c86f"}
+2026-03-31 21:02:14 | INFO     | [QUESTION_SENT] {"question_idx": 1865, "uid": "c776f1de-e305-4000-9893-0960bcd51c87"}
+2026-03-31 21:02:44 | INFO     | [QUESTION_ATTEMPT] {"attempt": 8, "max_questions": 300, "question_idx": 1865, "uid": "c776f1de-e305-4000-9893-0960bcd51c87"}
+2026-03-31 21:05:47 | INFO     | [QUESTION_SENT] {"question_idx": 1866, "uid": "6c14bef4-a2d8-4c84-8c57-b1b311e6a76b"}
+2026-03-31 21:06:13 | INFO     | [QUESTION_ATTEMPT] {"attempt": 9, "max_questions": 300, "question_idx": 1866, "uid": "6c14bef4-a2d8-4c84-8c57-b1b311e6a76b"}
+2026-03-31 21:09:20 | INFO     | [QUESTION_SENT] {"question_idx": 1867, "uid": "075a2ca1-a2e5-43c3-a38e-7897bb2b9eed"}
+2026-03-31 21:09:52 | INFO     | [QUESTION_ATTEMPT] {"attempt": 10, "max_questions": 300, "question_idx": 1867, "uid": "075a2ca1-a2e5-43c3-a38e-7897bb2b9eed"}
+2026-03-31 21:12:53 | INFO     | [QUESTION_SENT] {"question_idx": 1868, "uid": "538e99af-a358-4b5e-9725-f6de7c4d6559"}
+2026-03-31 21:13:23 | INFO     | [QUESTION_ATTEMPT] {"attempt": 11, "max_questions": 300, "question_idx": 1868, "uid": "538e99af-a358-4b5e-9725-f6de7c4d6559"}
+2026-03-31 21:16:26 | INFO     | [QUESTION_SENT] {"question_idx": 1869, "uid": "31caf269-2bed-4f65-87d7-d5535e98b852"}
+2026-03-31 21:16:58 | INFO     | [QUESTION_ATTEMPT] {"attempt": 12, "max_questions": 300, "question_idx": 1869, "uid": "31caf269-2bed-4f65-87d7-d5535e98b852"}
+2026-03-31 21:19:59 | INFO     | [QUESTION_SENT] {"question_idx": 1870, "uid": "8c850a7c-8d14-4449-8f8a-3bb83a523eee"}
+2026-03-31 21:20:29 | INFO     | [QUESTION_ATTEMPT] {"attempt": 13, "max_questions": 300, "question_idx": 1870, "uid": "8c850a7c-8d14-4449-8f8a-3bb83a523eee"}
+2026-03-31 21:20:30 | INFO     | [BOT_STOP] {"bot_id": 13, "total_questions": 13}

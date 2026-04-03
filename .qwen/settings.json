@@ -3,7 +3,9 @@
     "allow": [
       "Bash(./.venv/bin/python *)",
       "Bash(mkdir *)",
-      "Bash(cp *)"
+      "Bash(cp *)",
+      "Bash(python3 *)",
+      "Bash(ls *)"
     ]
   },
   "$version": 3

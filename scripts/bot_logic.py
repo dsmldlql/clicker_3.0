@@ -232,11 +232,16 @@ class FSM:
       fresh_frame = bot.get_frame_umat()
       if fresh_frame is None:
         fresh_frame = frame  # Fallback на старый кадр если не удалось получить новый
-      
+
+      # Извлекаем регион из конфига (если указан)
+      expect_config = cur_state_config['expect']
+      region = tuple(expect_config['region']) if 'region' in expect_config else None
+
       coords, _ = analyzer.find_best_match(
         fresh_frame,
-        cur_state_config['expect']['templates'],
-        cur_state_config['expect']['threshold']
+        expect_config['templates'],
+        expect_config['threshold'],
+        region=region
       )
 
       if coords and not self.expected_complete:
@@ -275,13 +280,17 @@ class FSM:
         # Отмечаем начало проверки условия
         self.state_logger.mark_condition_start()
 
+        # Извлекаем регион из конфига (если указан)
+        cond_region = tuple(cond['region']) if 'region' in cond else None
+
         # Получаем свежий кадр для проверки условия
         new_frame = bot.get_frame_umat()
         if new_frame is not None:
           hit, score = analyzer.find_best_match(
             new_frame,
-            cur_state_config['condition']['templates'],
-            cur_state_config['condition'].get('threshold', 0.8)
+            cond['templates'],
+            cond.get('threshold', 0.8),
+            region=cond_region
           )
           success = hit is not None
           if hit is None:

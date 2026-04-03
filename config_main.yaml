@@ -578,6 +578,9 @@ sites:
               templates:
                 - templates/chromium/gemini/more.png
               threshold: 0.7
+              # Область поиска кнопки more.png (x, y, width, height)
+              # Если не указана, ищем на всем экране
+              region: [0, 200, 1366, 766]
             action: click
             condition:
               templates:

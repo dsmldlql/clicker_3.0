@@ -1,0 +1,43 @@
+# Конфигурация одного бота (для Docker: один контейнер = один бот).
+# Переименуйте в config_bot.yaml и отредактируйте под свой бот.
+
+bot:
+  # Сайт и сценарий (должны совпадать с config_main.yaml)
+  project: hypos_norm
+  subproject: gen
+  site: qwen
+  mode: web_search_no_think
+  model: qwen
+  scenario: web_search_no_think
+
+  # Профиль браузера — мапится через volume в docker-compose.yml
+  # В Docker: /home/profiles/bot_0:/home/profiles/bot_0
+  browser_master_profile: /home/profiles/bot_0
+
+  # Датасет с вопросами
+  dataset_path: datasets/sp_after_2000_good.csv
+  columns:
+    - uid
+    - query
+    - used
+  row_range: [2051, 2100]
+  max_questions: 150
+
+  # ROI (область скриншота) — должен помещаться в RESOLUTION контейнера
+  roi: [0, 0, 960, 800]
+  question_interval: 5.0
+
+  # Перезапуск (0 = без автоперезапуска)
+  restart_delay: 0
+
+  # Прокси (None, "ip:port", или "login:pass@ip:port")
+  proxy: None
+
+  # Расписание запуска
+  schedule:
+    start_immediately: true
+    start_times:
+      - "00:00"
+      - "06:00"
+      - "12:00"
+      - "18:00"

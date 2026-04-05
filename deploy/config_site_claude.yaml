@@ -1,0 +1,134 @@
+# Конфиг сайта claude
+site:
+  name: claude
+  url: https://claude.ai/
+  home:
+    reset:
+      sequence:
+        - type: hotkey
+          keys: [ctrl, l]
+        - type: wait
+          seconds: 2.0
+        - type: text
+          value: https://claude.ai/
+        - type: key
+          key: enter
+        - type: wait
+          seconds: 5.0
+  scenarios:
+    sonnet:
+      start_state: start_question
+
+      states:
+        start_question:
+          expect:
+            templates:
+              - templates/chromium/claude/plus.png
+            threshold: 0.8
+          action: click
+          condition:
+            templates:
+              - templates/chromium/claude/web_search_selected.png
+            threshold: 0.8
+          next:
+            success: click_upper_right
+            fail: start_question
+          timeout: 120.0
+
+        click_upper_right:
+          expect:
+            templates:
+              - templates/chromium/claude/upper_right.png
+            threshold: 0.8
+          action: click
+          condition:
+            templates:
+              - templates/chromium/claude/how_can_i_help.png
+            threshold: 0.8
+          next:
+            success: check_model
+            fail: start_question
+          timeout: 120.0
+
+        check_model:
+          expect:
+            templates:
+              - templates/chromium/claude/how_can_i_help.png
+            threshold: 0.8
+          action: click
+          condition:
+            templates:
+              - templates/chromium/claude/sonnet_main_page.png
+            threshold: 0.8
+          next:
+            success: ask_empty
+            fail: start_question
+          timeout: 120.0
+
+        ask_empty:
+          expect:
+            templates:
+              - templates/chromium/claude/how_can_i_help.png
+            threshold: 0.8
+          action: click_paste_enter
+          condition:
+            templates:
+              - templates/chromium/claude/answer_processing.png
+            threshold: 0.9
+          next:
+            success: answer_processing
+            fail: answer_processing
+          timeout: 120.0
+
+        answer_processing:
+          expect:
+            templates:
+              - templates/chromium/claude/voice_mode.png
+            threshold: 0.65
+          action: mousemove
+          condition:
+            templates:
+              - templates/chromium/claude/voice_right_conner.png
+            threshold: 0.65
+          next:
+            success: find_copy_button
+            fail: start_question
+          timeout: 600.0
+
+        find_copy_button:
+          expect:
+            templates:
+              - templates/chromium/claude/voice_right_conner.png
+            threshold: 0.65
+          action: click_ctrl_end
+          condition:
+            templates:
+              - templates/chromium/claude/copy_likes.png
+            threshold: 0.65
+          next:
+            success: end_of_answer
+            fail: start_question
+          timeout: 120.0
+
+        end_of_answer:
+          expect:
+            templates:
+              - templates/chromium/claude/copy.png
+            threshold: 0.65
+          action: click_copy_save_json_check
+          condition:
+            json_valid: true
+          next:
+            success: start_question
+            fail: start_question
+          timeout: 120.0
+
+prompts:
+  claude:
+    hypos_norm:
+      gen:
+        text: prompts/claude/hypos_norm/gen/hn_gen_claude_sonnet_text_latest
+        json: prompts/claude/hypos_norm/gen/hn_gen_claude_sonnet_json_latest
+      filter:
+        text: prompts/claude/hypos_norm/filter/hn_filter_claude_sonnet_text_latest
+        json: prompts/claude/hypos_norm/filter/hn_filter_claude_sonnet_json_latest

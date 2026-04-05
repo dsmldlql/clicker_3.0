@@ -1,0 +1,105 @@
+version: '3.8'
+
+# Claude боты
+# Порты: noVNC 6930-6933, VNC 5930-5933
+
+services:
+  bot_30:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_30
+    shm_size: 2gb
+    ports:
+      - "6930:80"
+      - "5930:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_30.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/leinswdolenfnk4@outlook.com:/home/profiles/leinswdolenfnk4@outlook.com
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_31:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_31
+    shm_size: 2gb
+    ports:
+      - "6931:80"
+      - "5931:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_31.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/sweetozewdur0ye@outlook.com:/home/profiles/sweetozewdur0ye@outlook.com
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_32:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_32
+    shm_size: 2gb
+    ports:
+      - "6932:80"
+      - "5932:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_32.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/touchxdimespgq6d4@outlook.com:/home/profiles/touchxdimespgq6d4@outlook.com
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_33:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_33
+    shm_size: 2gb
+    ports:
+      - "6933:80"
+      - "5933:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_33.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/meachjhayamegl@outlook.com:/home/profiles/meachjhayamegl@outlook.com
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN

@@ -1,0 +1,155 @@
+version: '3.8'
+
+# Qwen боты
+# Порты: noVNC 6900-6905, VNC 5900-5905
+
+services:
+  bot_0:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_0
+    shm_size: 2gb
+    ports:
+      - "6900:80"
+      - "5900:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_0.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_0:/home/profiles/bot_0
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_1
+    shm_size: 2gb
+    ports:
+      - "6901:80"
+      - "5901:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_1.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_1:/home/profiles/bot_1
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_2
+    shm_size: 2gb
+    ports:
+      - "6902:80"
+      - "5902:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_2.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_2:/home/profiles/bot_2
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_3
+    shm_size: 2gb
+    ports:
+      - "6903:80"
+      - "5903:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_3.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_3:/home/profiles/bot_3
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_4
+    shm_size: 2gb
+    ports:
+      - "6904:80"
+      - "5904:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_4.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_4:/home/profiles/bot_4
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_5:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_5
+    shm_size: 2gb
+    ports:
+      - "6905:80"
+      - "5905:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_5.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_5:/home/profiles/bot_5
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN

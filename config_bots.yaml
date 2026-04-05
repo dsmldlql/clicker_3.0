@@ -14,7 +14,7 @@ bot_0:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1451, 1500]
+  row_range: [3201, 3250]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -44,7 +44,7 @@ bot_1:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1501, 1550]
+  row_range: [3151, 3200]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -73,7 +73,7 @@ bot_2:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1551, 1600]
+  row_range: [3101, 3150]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -102,7 +102,7 @@ bot_3:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1601, 1650]
+  row_range: [3051, 3100]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -131,7 +131,7 @@ bot_4:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1651, 1700]
+  row_range: [3001, 3050]
   max_questions: 150
   restart_delay: 0
   proxy: [95.164.200.222, 9094, hkzcJK, 41j05w]
@@ -160,7 +160,7 @@ bot_5:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 5.0
-  row_range: [1701, 1750]
+  row_range: [2951, 3000]
   max_questions: 150
   restart_delay: 0
   proxy: None
@@ -191,7 +191,7 @@ bot_10:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 182.0
-  row_range: [2451, 2600]
+  row_range: [3401, 3550]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -221,7 +221,7 @@ bot_11:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 184.0
-  row_range: [2601, 2750]
+  row_range: [3551, 3700]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -250,8 +250,8 @@ bot_12:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 200.0
-  row_range: [2901, 2930]
-  max_questions: 100
+  row_range: [3689, 3700]
+  max_questions: 50
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
   schedule:
@@ -279,7 +279,7 @@ bot_13:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [2751, 2900]
+  row_range: [3701, 3850]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -311,7 +311,7 @@ bot_20:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [1651, 1800]
+  row_range: [2001, 2150]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]
@@ -340,7 +340,7 @@ bot_21:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 180.0
-  row_range: [1801, 1950]
+  row_range: [1951, 2100]
   max_questions: 300
   restart_delay: 0
   proxy: [186.65.122.102, 8000, "bbaBmV", "vEyoqs"]

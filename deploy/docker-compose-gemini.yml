@@ -1,0 +1,55 @@
+version: '3.8'
+
+# Gemini боты
+# Порты: noVNC 6920-6921, VNC 5920-5921
+
+services:
+  bot_20:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_20
+    shm_size: 2gb
+    ports:
+      - "6920:80"
+      - "5920:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_20.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/vanthuan1990t@gmail.com:/home/profiles/vanthuan1990t@gmail.com
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_21:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_21
+    shm_size: 2gb
+    ports:
+      - "6921:80"
+      - "5921:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_21.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/hoanghao1994hy@gmail.com:/home/profiles/hoanghao1994hy@gmail.com
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN

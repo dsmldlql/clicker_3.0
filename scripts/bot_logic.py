@@ -227,38 +227,63 @@ class FSM:
       return
 
     if not self.expected_complete:
-      # Поиск визуального триггера - получаем СВЕЖИЙ кадр для надёжности
-      print(f'Expect [{self.current_state}]')
-      fresh_frame = bot.get_frame_umat()
-      if fresh_frame is None:
-        fresh_frame = frame  # Fallback на старый кадр если не удалось получить новый
+      # Проверяем, используется ли клик по заданной области вместо поиска шаблона
+      use_click_region = cur_state_config.get('click_center')
 
-      # Извлекаем регион из конфига (если указан)
-      expect_config = cur_state_config['expect']
-      region = tuple(expect_config['region']) if 'region' in expect_config else None
+      if use_click_region:
+        # Генерируем случайные координаты в заданной области
+        import random
+        cx, cy = cur_state_config['click_center']
+        rx, ry = cur_state_config.get('click_radius', [20, 20])
 
-      coords, _ = analyzer.find_best_match(
-        fresh_frame,
-        expect_config['templates'],
-        expect_config['threshold'],
-        region=region
-      )
+        x = random.randint(cx - rx, cx + rx)
+        y = random.randint(cy - ry, cy + ry)
 
-      if coords and not self.expected_complete:
-        print(f'coords and not self.expected_complete: {coords}, {self.expected_complete:}')
-        # Логируем нахождение триггера
-        self.state_logger.mark_trigger_found()
+        print(f"[+] [Бот {self.bot_id}] Клик по области: центр ({cx},{cy}), радиус ±({rx},{ry}) → ({x},{y})")
 
+        # Сразу выполняем действие без поиска шаблона
         self.expected_complete = True
-        # Сброс таймера при успешном нахождении триггера
         self.last_change = time.time()
 
         # ОЧИСТКА перед действием, если ожидаем проверку буфера
         if cur_state_config.get('condition', {}).get('json_valid'):
           bot.clear_clipboard()
 
-        self._run_action(bot, cur_state_config['action'], coords)
+        self._run_action(bot, cur_state_config['action'], (x, y))
         # time.sleep(cur_state_config.get('cooldown', 2.0))
+      else:
+        # Поиск визуального триггера - получаем СВЕЖИЙ кадр для надёжности
+        print(f'Expect [{self.current_state}]')
+        fresh_frame = bot.get_frame_umat()
+        if fresh_frame is None:
+          fresh_frame = frame  # Fallback на старый кадр если не удалось получить новый
+
+        # Извлекаем регион из конфига (если указан)
+        expect_config = cur_state_config['expect']
+        region = tuple(expect_config['region']) if 'region' in expect_config else None
+
+        coords, _ = analyzer.find_best_match(
+          fresh_frame,
+          expect_config['templates'],
+          expect_config['threshold'],
+          region=region
+        )
+
+        if coords and not self.expected_complete:
+          print(f'coords and not self.expected_complete: {coords}, {self.expected_complete:}')
+          # Логируем нахождение триггера
+          self.state_logger.mark_trigger_found()
+
+          self.expected_complete = True
+          # Сброс таймера при успешном нахождении триггера
+          self.last_change = time.time()
+
+          # ОЧИСТКА перед действием, если ожидаем проверку буфера
+          if cur_state_config.get('condition', {}).get('json_valid'):
+            bot.clear_clipboard()
+
+          self._run_action(bot, cur_state_config['action'], coords)
+          # time.sleep(cur_state_config.get('cooldown', 2.0))
     
     if self.expected_complete:
       print(f'self.expected_complete {self.expected_complete}')
@@ -739,8 +764,9 @@ class FSM:
         print(f"[!] [Бот {self.bot_id}] Ошибка чтения буфера: {e}")
 
     elif action == "click_ctrl_end":
+      # Координаты уже случайные (из click_center/click_radius в конфиге)
       # Клик + переход в конец страницы (Ctrl+End)
-      bot.action_queue.put(('click', (x, y - 30)))
+      bot.action_queue.put(('click', (x, y)))
       time.sleep(0.3)
       bot.action_queue.put(('hotkey', ['ctrl', 'End']))
       time.sleep(0.3)

@@ -1,0 +1,31 @@
+version: '3.8'
+
+# Perplexity боты
+# Порты: noVNC 6940+, VNC 5940+
+# Добавьте config_bot_X.yaml с site: perplexity и обновите volumes ниже
+
+services:
+  bot_40:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_40
+    shm_size: 2gb
+    ports:
+      - "6940:80"
+      - "5940:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_40.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_40:/home/profiles/bot_40
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN

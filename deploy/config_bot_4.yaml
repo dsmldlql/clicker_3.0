@@ -1,0 +1,38 @@
+bot_4:
+  browser_master_profile: ~/rxmzge8117@outlook.com
+  columns:
+  - uid
+  - query
+  - used
+  cooldown: 1.0
+  dataset_path: datasets/sp_after_2000_good.csv
+  max_questions: 150
+  mode: web_search_no_think
+  model: qwen
+  project: hypos_norm
+  proxy:
+  - 95.164.200.222
+  - 9094
+  - hkzcJK
+  - 41j05w
+  question_interval: 5.0
+  restart_delay: 0
+  roi:
+  - 0
+  - 0
+  - 960
+  - 800
+  row_range:
+  - 2251
+  - 2300
+  scenario: web_search_no_think
+  schedule:
+    start_immediately: true
+    start_times:
+    - 00:00
+    - 06:00
+    - '12:00'
+    - '18:00'
+  site: qwen
+  subproject: gen
+  subscription: gpt_plus

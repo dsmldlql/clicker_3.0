@@ -1,0 +1,38 @@
+bot_20:
+  browser_master_profile: ~/vanthuan1990t@gmail.com
+  columns:
+  - uid
+  - query
+  - used
+  cooldown: 1.0
+  dataset_path: datasets/sp_after_2000_good.csv
+  max_questions: 300
+  mode: thinking
+  model: gemini
+  project: hypos_norm
+  proxy:
+  - 186.65.122.102
+  - 8000
+  - bbaBmV
+  - vEyoqs
+  question_interval: 180.0
+  restart_delay: 0
+  roi:
+  - 0
+  - 0
+  - 960
+  - 800
+  row_range:
+  - 1651
+  - 1800
+  scenario: thinking_0
+  schedule:
+    start_immediately: true
+    start_times:
+    - 00:00
+    - 06:00
+    - '12:00'
+    - '18:00'
+  site: gemini
+  subproject: gen
+  subscription: gemini_plus

@@ -1,0 +1,155 @@
+version: '3.8'
+
+# Один контейнер = один бот.
+# Каждый бот читает свой config_bot.yaml и config_site_{site}.yaml.
+
+services:
+  bot_0:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_0
+    shm_size: 2gb
+    ports:
+      - "6970:80"            # noVNC (web browser)
+      - "5970:5900"          # VNC
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_0.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_0:/home/profiles/bot_0
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_1
+    shm_size: 2gb
+    ports:
+      - "6971:80"
+      - "5971:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_1.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_1:/home/profiles/bot_1
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_2
+    shm_size: 2gb
+    ports:
+      - "6972:80"
+      - "5972:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_2.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_2:/home/profiles/bot_2
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_3
+    shm_size: 2gb
+    ports:
+      - "6973:80"
+      - "5973:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_3.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_3:/home/profiles/bot_3
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_4
+    shm_size: 2gb
+    ports:
+      - "6974:80"
+      - "5974:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_4.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_4:/home/profiles/bot_4
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN
+
+  bot_5:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clicker_bot_5
+    shm_size: 2gb
+    ports:
+      - "6975:80"
+      - "5975:5900"
+    environment:
+      - VNC_PASSWORD=
+      - RESOLUTION=1366x768
+    volumes:
+      - ./scripts:/home/scripts
+      - ./config_bot_5.yaml:/home/config/config_bot.yaml
+      - ./site_configs:/home/site_configs
+      - ./profiles/bot_5:/home/profiles/bot_5
+      - ./answers:/home/answers
+      - ./datasets:/home/datasets
+      - ./prompts:/home/prompts
+      - ./templates:/home/templates
+      - ./logs:/home/logs
+    cap_add:
+      - SYS_ADMIN

@@ -1,0 +1,364 @@
+# Конфиг сайта gpt
+# Содержит: url, home/reset, scenarios, prompts
+
+site:
+  name: gpt
+  url: https://chatgpt.com/
+
+  home:
+    reset:
+      sequence:
+        - type: hotkey
+          keys: [ctrl, l]
+        - type: wait
+          seconds: 2.0
+        - type: text
+          value: https://chatgpt.com/
+        - type: key
+          key: enter
+        - type: wait
+          seconds: 3.0
+
+  scenarios:
+    web_search:
+      start_state: start_question
+
+      states:
+        start_question:
+          expect:
+            templates:
+              - templates/chromium/gpt/plus.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/more.png
+            threshold: 0.7
+          next:
+            success: options_menu_opened
+            fail: start_question
+          timeout: 120.0
+
+        options_menu_opened:
+          expect:
+            templates:
+              - templates/chromium/gpt/more.png
+            threshold: 0.7
+          action: mousemove
+          condition:
+            templates:
+              - templates/chromium/gpt/web_search.png
+            threshold: 0.7
+          next:
+            success: select_web_search
+            fail: start_question
+          timeout: 120.0
+
+        select_web_search:
+          expect:
+            templates:
+              - templates/chromium/gpt/web_search.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/blue_search.png
+            threshold: 0.7
+          next:
+            success: ask_empty
+            fail: start_question
+          timeout: 120.0
+
+        ask_empty:
+          expect:
+            templates:
+              - templates/chromium/gpt/search_the_web.png
+            threshold: 0.7
+          action: click_paste_enter
+          condition:
+            templates:
+              - templates/chromium/gpt/stop.png
+            threshold: 0.7
+          next:
+            success: answer_processing
+            fail: show_in_text_field
+          timeout: 120.0
+
+        show_in_text_field:
+          expect:
+            templates:
+              - templates/chromium/gpt/show_in_text_field.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/white_arrow_up.png
+            threshold: 0.7
+          next:
+            success: white_arrow_up
+            fail: start_question
+          timeout: 120.0
+
+        white_arrow_up:
+          expect:
+            templates:
+              - templates/chromium/gpt/white_arrow_up.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/stop.png
+            threshold: 0.7
+          next:
+            success: answer_processing
+            fail: answer_processing
+          timeout: 120.0
+
+        answer_processing:
+          expect:
+            templates:
+              - templates/chromium/gpt/voice_mode.png
+            threshold: 0.7
+          action: mousemove
+          condition:
+            templates:
+              - templates/chromium/gpt/voice_right_side.png
+            threshold: 0.7
+          next:
+            success: page_end
+            fail: start_question
+          timeout: 400.0
+
+        page_end:
+          expect:
+            templates:
+              - templates/chromium/gpt/voice_right_side.png
+            threshold: 0.7
+          action: click_ctrl_end
+          condition:
+            templates:
+              - templates/chromium/gpt/try_again_more.png
+            threshold: 0.7
+          next:
+            success: end_of_answer
+            fail: start_question
+          timeout: 300.0
+
+        end_of_answer:
+          expect:
+            templates:
+              - templates/chromium/gpt/copy.png
+            threshold: 0.7
+          action: click_copy_save_json_check
+          condition:
+            json_valid: true
+          next:
+            success: click_like
+            fail: click_dislike
+          timeout: 120.0
+
+        click_like:
+          expect:
+            templates:
+              - templates/chromium/gpt/like.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/try_again_more.png
+            threshold: 0.7
+          next:
+            success: start_question
+            fail: start_question
+          timeout: 120.0
+
+        click_dislike:
+          expect:
+            templates:
+              - templates/chromium/gpt/dislike.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/close_cross.png
+            threshold: 0.7
+          next:
+            success: close_feedback
+            fail: start_question
+          timeout: 120.0
+
+        close_feedback:
+          expect:
+            templates:
+              - templates/chromium/gpt/close_cross.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/try_again_more.png
+            threshold: 0.7
+          next:
+            success: ask_json
+            fail: start_question
+          timeout: 120.0
+
+        ask_json:
+          expect:
+            templates:
+              - templates/chromium/gpt/search_the_web.png
+            threshold: 0.7
+          action: click_paste_file_enter
+          file: prompts/gpt/ask_json
+          condition:
+            templates:
+              - templates/chromium/gpt/stop.png
+            threshold: 0.7
+          next:
+            success: answer_processing_1
+            fail: show_in_text_field_1
+          timeout: 120.0
+
+        show_in_text_field_1:
+          expect:
+            templates:
+              - templates/chromium/gpt/show_in_text_field.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/white_arrow_up.png
+            threshold: 0.7
+          next:
+            success: white_arrow_up_1
+            fail: start_question
+          timeout: 120.0
+
+        white_arrow_up_1:
+          expect:
+            templates:
+              - templates/chromium/gpt/white_arrow_up.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/stop.png
+            threshold: 0.7
+          next:
+            success: answer_processing_1
+            fail: answer_processing_1
+          timeout: 120.0
+
+        answer_processing_1:
+          expect:
+            templates:
+              - templates/chromium/gpt/voice_mode.png
+            threshold: 0.7
+          action: mousemove
+          condition:
+            templates:
+              - templates/chromium/gpt/voice_right_side.png
+            threshold: 0.7
+          next:
+            success: page_end_1
+            fail: start_question
+          timeout: 400.0
+
+        page_end_1:
+          expect:
+            templates:
+              - templates/chromium/gpt/voice_right_side.png
+            threshold: 0.7
+          action: click_ctrl_end
+          condition:
+            templates:
+              - templates/chromium/gpt/try_again_more.png
+            threshold: 0.7
+          next:
+            success: end_of_answer_1
+            fail: start_question
+          timeout: 300.0
+
+        end_of_answer_1:
+          expect:
+            templates:
+              - templates/chromium/gpt/copy.png
+            threshold: 0.7
+          action: click_copy_save_json_check
+          condition:
+            json_valid: true
+          next:
+            success: click_like_1
+            fail: click_dislike_1
+          timeout: 120.0
+
+        click_like_1:
+          expect:
+            templates:
+              - templates/chromium/gpt/like.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/try_again_more.png
+            threshold: 0.7
+          next:
+            success: start_question
+            fail: start_question
+          timeout: 120.0
+
+        click_dislike_1:
+          expect:
+            templates:
+              - templates/chromium/gpt/dislike.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/close_cross.png
+            threshold: 0.7
+          next:
+            success: close_feedback_1
+            fail: start_question
+          timeout: 120.0
+
+        close_feedback_:
+          expect:
+            templates:
+              - templates/chromium/gpt/close_cross.png
+            threshold: 0.7
+          action: click
+          condition:
+            templates:
+              - templates/chromium/gpt/try_again_more.png
+            threshold: 0.7
+          next:
+            success: ask_json_1
+            fail: start_question
+          timeout: 120.0
+
+        ask_json_1:
+          expect:
+            templates:
+              - templates/chromium/gpt/search_the_web.png
+            threshold: 0.7
+          action: click_paste_file_enter
+          file: prompts/gpt/ask_json
+          condition:
+            templates:
+              - templates/chromium/gpt/stop.png
+            threshold: 0.7
+          next:
+            success: start_question
+            fail: start_question
+          timeout: 120.0
+
+
+prompts:
+  gpt:
+    hypos_norm:
+      gen:
+        text: prompts/gpt/hypos_norm/gen/hn_gen_gpt_text_latest
+        json: prompts/gpt/hypos_norm/gen/hn_gen_gpt_json_latest
+      filter:
+        text: prompts/gpt/hypos_norm/filter/hn_filter_gpt_text_latest
+        json: prompts/gpt/hypos_norm/filter/hn_filter_gpt_json_latest

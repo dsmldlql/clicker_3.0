@@ -1,0 +1,38 @@
+bot_13:
+  browser_master_profile: ~/kacalbsullo03467p@outlook.com
+  columns:
+  - uid
+  - query
+  - used
+  cooldown: 1.0
+  dataset_path: datasets/sp_after_2000_good.csv
+  max_questions: 300
+  mode: web_search
+  model: gpt
+  project: hypos_norm
+  proxy:
+  - 186.65.122.102
+  - 8000
+  - bbaBmV
+  - vEyoqs
+  question_interval: 180.0
+  restart_delay: 0
+  roi:
+  - 0
+  - 0
+  - 960
+  - 800
+  row_range:
+  - 3251
+  - 3400
+  scenario: web_search
+  schedule:
+    start_immediately: true
+    start_times:
+    - 00:00
+    - 06:00
+    - '12:00'
+    - '18:00'
+  site: gpt
+  subproject: gen
+  subscription: gpt_plus

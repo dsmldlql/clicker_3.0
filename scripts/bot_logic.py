@@ -396,11 +396,6 @@ class FSM:
           # Log to CSV: JSON verified successfully
           self.logger.log_csv_operation("JSON_VERIFIED", global_index=global_idx, question_uid=uid)
 
-          # Увеличиваем глобальный счётчик вопросов (и логируем попытку)
-          if not bot.increment_question_count():
-            # Лимит исчерпан - логируем и останавливаем бота
-            bot.log_limit_exhausted()
-            return
           # JSON хорош - сохраняем ТЕКУЩИЙ вопрос
           bot.save_verified_json(verified_data)
 
@@ -480,12 +475,6 @@ class FSM:
           self.logger.log_csv_operation("JSON_VERIFY_FAILED", global_index=global_idx, question_uid=uid)
 
           # JSON плохой - НЕ увеличиваем cur_global_idx, вопрос остаётся тот же!
-          # Увеличиваем только счётчик попыток (total_question_count)
-          if not bot.increment_question_count():
-            # Лимит исчерпан при повторной попытке - логируем и останавливаем
-            bot.log_limit_exhausted()
-            return
-
           # Вопрос будет задан ПОВТОРНО (cur_global_idx не изменился!)
           print(f"[!] [Бот {self.bot_id}] JSON плохой, вопрос будет задан повторно (попытка #{bot.total_question_count}, индекс: {bot.cur_global_idx})")
 
@@ -493,7 +482,7 @@ class FSM:
           bot.clear_clipboard()
           print(f"[+] [Бот {self.bot_id}] Буфер очищен после неудачной верификации")
 
-          # Проверяем, не достигнут ли лимит перед повторной попыткой
+          # Проверяем лимит перед повторной попыткой
           if not bot.check_question_limit():
             bot.log_limit_exhausted()
             return
@@ -649,6 +638,9 @@ class FSM:
       bot.action_queue.put(('key', 'Return'))
       time.sleep(1.0)  # Пауза после Enter
 
+      # Увеличиваем счётчик попыток и логируем QUESTION в CSV
+      bot.increment_question_count()
+
       # Логируем факт задавания вопроса
       bot.log_question_sent(bot.cur_global_idx, uid)
       
@@ -726,6 +718,9 @@ class FSM:
       # Нажатие Enter
       bot.action_queue.put(('key', 'Return'))
       time.sleep(0.5)  # Пауза после Enter
+
+      # Увеличиваем счётчик попыток и логируем QUESTION в CSV
+      bot.increment_question_count()
 
       # Логируем факт задавания вопроса
       bot.log_question_sent(bot.cur_global_idx, uid)

@@ -209,8 +209,6 @@ class FSM:
 
         if success and verified_data:
           self.expected_complete = False
-          if not bot.increment_question_count():
-            return
           bot.save_verified_json(verified_data)
           bot.clear_clipboard()
 
@@ -251,8 +249,6 @@ class FSM:
           global_idx = bot.cur_global_idx
           self.csv_logger.log("JSON_VERIFY_FAILED", global_index=global_idx, question_uid=uid)
 
-          if not bot.increment_question_count():
-            return
           if not bot.check_question_limit():
             return
 
@@ -327,6 +323,7 @@ class FSM:
       bot.action_queue.put(('key', 'Return'))
       time.sleep(1.0)
       bot.clear_clipboard()
+      bot.increment_question_count()
       self._paste_enter_executed = True
 
     elif action == "click_paste_file_enter":
@@ -359,6 +356,7 @@ class FSM:
       bot.action_queue.put(('key', 'Return'))
       time.sleep(0.5)
       bot.clear_clipboard()
+      bot.increment_question_count()
       self._paste_enter_executed = True
 
     elif action == "click_copy_save_json_check":

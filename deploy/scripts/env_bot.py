@@ -324,6 +324,9 @@ class VirtualBotEnv:
     if self.total_question_count > self.max_questions:
       self.stop_event.set()
       return False
+    # Лог QUESTION в CSV — счётчик попыток увеличивается здесь
+    uid = self.get_cur_question_uid()
+    self.csv_logger.log("QUESTION", global_index=self.cur_global_idx, question_uid=uid)
     return True
 
   def check_question_limit(self):

@@ -571,7 +571,7 @@ sites:
             next:
               success: page_end
               fail: start_question
-            timeout: 200.0
+            timeout: 150.0
 
           page_end:
             click_center: [100, 300]     # Центр области клика (x, y)
@@ -721,7 +721,7 @@ sites:
             next:
               success: page_end_1
               fail: start_question
-            timeout: 200.0
+            timeout: 150.0
 
           page_end_1:
             click_center: [100, 300]     # Центр области клика (x, y)
@@ -831,12 +831,12 @@ sites:
           start_question:
             expect:
               templates:
-                - templates/chromium/gemini/ask_gemini_start_1.png
+                - templates/chromium/gemini/start_page_thinking.png
               threshold: 0.7
-            action: click
+            action: mousemove
             condition:
               templates:
-                - templates/chromium/gemini/main_page_thinking_1.png
+                - templates/chromium/gemini/ask_gemini_0.png
               threshold: 0.7
             next:
               success: ask_empty
@@ -846,92 +846,138 @@ sites:
           if_pro:
             expect:
               templates:
-                - templates/chromium/gemini/main_page_pro_1.png
+                - templates/chromium/gemini/start_page_pro.png
               threshold: 0.7
             action: click
             condition:
               templates:
-                - templates/chromium/gemini/thinking_option_1.png
+                - templates/chromium/gemini/option_thinking_0.png
               threshold: 0.7
             next:
               success: options_menu_opened
               fail: if_fast
-            timeout: 20.0
+            timeout: 5.0
 
           if_fast:
             expect:
               templates:
-                - templates/chromium/gemini/main_page_fast_1.png
+                - templates/chromium/gemini/start_page_pro.png
               threshold: 0.7
             action: click
             condition:
               templates:
-                - templates/chromium/gemini/thinking_option_1.png
+                - templates/chromium/gemini/option_thinking_0.png
               threshold: 0.7
             next:
               success: options_menu_opened
               fail: start_question
-            timeout: 20.0
+            timeout: 5.0
 
           options_menu_opened:
             expect:
               templates:
-                - templates/chromium/gemini/thinking_option_1.png
+                - templates/chromium/gemini/option_thinking_0.png
               threshold: 0.7
             action: click
             condition:
               templates:
-                - templates/chromium/gemini/main_page_thinking_1.png
+                - templates/chromium/gemini/start_page_thinking.png
               threshold: 0.7
             next:
               success: ask_empty
               fail: start_question
-            timeout: 120.0
+            timeout: 10.0
 
           ask_empty:
             expect:
               templates:
-                - templates/chromium/gemini/ask_gemini_1.png
+                - templates/chromium/gemini/ask_gemini_0.png
               threshold: 0.7
             action: click_paste_enter
             condition:
               templates:
-                - templates/chromium/gemini/stop_1.png
+                - templates/chromium/gemini/stop_0.png
+              threshold: 0.7
+            next:
+              success: answer_processing
+              fail: check_black_arrow
+            timeout: 20.0
+
+          check_black_arrow:
+            expect:
+              templates:
+                - templates/chromium/gemini/black_arrow.png
+              threshold: 0.7
+            action: mousemove
+            condition:
+              templates:
+                - templates/chromium/gemini/black_arrow.png
+              threshold: 0.7
+            next:
+              success: start_question
+              fail: check_stop
+            timeout: 10.0
+
+          check_stop:
+            expect:
+              templates:
+                - templates/chromium/gemini/stop_0.png
+              threshold: 0.7
+            action: mousemove
+            condition:
+              templates:
+                - templates/chromium/gemini/voice_mode_0.png
               threshold: 0.7
             next:
               success: answer_processing
               fail: answer_processing
-            timeout: 120.0
+            timeout: 10.0
 
           answer_processing:
             expect:
               templates:
-                - templates/chromium/gemini/voice_mode_1.png
+                - templates/chromium/gemini/voice_mode_0.png
               threshold: 0.7
             action: mousemove
             condition:
               templates:
                 - templates/chromium/gemini/more.png
-              threshold: 0.7
+              threshold: 0.6
             next:
-              success: find_copy_button
+              success: page_end
               fail: start_question
-            timeout: 200.0
+            timeout: 150.0
 
-          find_copy_button:
-            expect:
-              templates:
-                - templates/chromium/gemini/more.png
-              threshold: 0.7
-            action: click
+          page_end:
+            click_center: [100, 300]     # Центр области клика (x, y)
+            click_radius: [40, 30]   
+            action: click_ctrl_end
             condition:
               templates:
-                - templates/chromium/gemini/copy.png
+                - templates/chromium/gemini/like.png
               threshold: 0.7
             next:
               success: end_of_answer
               fail: start_question
-            timeout: 120.0
+            timeout: 20.0
+
+          # find_copy_button:
+          #   expect:
+          #     templates:
+          #       - templates/chromium/gemini/more.png
+          #     threshold: 0.7
+          #     # Область поиска кнопки more.png (x, y, width, height)
+          #     # Если не указана, ищем на всем экране
+          #     region: [0, 200, 1366, 766]
+          #   action: click
+          #   condition:
+          #     templates:
+          #       - templates/chromium/gemini/copy.png
+          #     threshold: 0.7
+          #   next:
+          #     success: end_of_answer
+          #     fail: start_question
+          #   timeout: 20.0
 
           end_of_answer:
             expect:
@@ -942,24 +988,24 @@ sites:
             condition:
               json_valid: true            
             next:
-              success: find_like_button
-              fail: find_dislike_button
+              success: click_like
+              fail: click_dislike
             timeout: 120.0
 
-          find_like_button:
-            expect:
-              templates:
-                - templates/chromium/gemini/more.png
-              threshold: 0.7
-            action: click
-            condition:
-              templates:
-                - templates/chromium/gemini/like.png
-              threshold: 0.7
-            next:
-              success: click_like
-              fail: start_question
-            timeout: 120.0
+          # find_like_button:
+          #   expect:
+          #     templates:
+          #       - templates/chromium/gemini/like.png
+          #     threshold: 0.7
+          #   action: click
+          #   condition:
+          #     templates:
+          #       - templates/chromium/gemini/like.png
+          #     threshold: 0.7
+          #   next:
+          #     success: click_like
+          #     fail: start_question
+          #   timeout: 120.0
 
           click_like:
             expect:
@@ -969,27 +1015,27 @@ sites:
             action: click
             condition:
               templates:
-                - templates/chromium/gemini/voice_mode_1.png
+                - templates/chromium/gemini/voice_mode_0.png
               threshold: 0.7         
             next:
               success: start_question
               fail: start_question
             timeout: 120.0          
 
-          find_dislike_button:
-            expect:
-              templates:
-                - templates/chromium/gemini/more.png
-              threshold: 0.7
-            action: click
-            condition:
-              templates:
-                - templates/chromium/gemini/dislike.png
-              threshold: 0.7
-            next:
-              success: click_dislike
-              fail: start_question
-            timeout: 120.0
+          # find_dislike_button:
+          #   expect:
+          #     templates:
+          #       - templates/chromium/gemini/dislike.png
+          #     threshold: 0.7
+          #   action: click
+          #   condition:
+          #     templates:
+          #       - templates/chromium/gemini/dislike.png
+          #     threshold: 0.7
+          #   next:
+          #     success: click_dislike
+          #     fail: start_question
+          #   timeout: 120.0
 
           click_dislike:
             expect:
@@ -999,29 +1045,159 @@ sites:
             action: click
             condition:
               templates:
-                - templates/chromium/gemini/voice_mode_1.png
+                - templates/chromium/gemini/voice_mode_0.png
               threshold: 0.7         
+            next:
+              success: close_dislike_options
+              fail: start_question
+            timeout: 120.0  
+
+          close_dislike_options:
+            expect:
+              templates:
+                - templates/chromium/gemini/dislike_close_space.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gemini/ask_gemini_after_dislike.png
+              threshold: 0.7
             next:
               success: ask_json
               fail: start_question
-            timeout: 120.0  
+            timeout: 120.0
 
           ask_json:
             expect:
               templates:
-                - templates/chromium/gemini/ask_gemini_1.png
+                - templates/chromium/gemini/ask_gemini_0.png
               threshold: 0.7
             action: click_paste_file_enter
             file: prompts/gemini/ask_json  # ← путь к файлу
             condition:
               templates:
-                - templates/chromium/gemini/stop_1.png
+                - templates/chromium/gemini/stop_0.png
               threshold: 0.7
             next:
-              success: answer_processing
+              success: answer_processing_1
               fail: start_question
             timeout: 120.0
 
+          answer_processing_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/voice_mode_0.png
+              threshold: 0.7
+            action: mousemove
+            condition:
+              templates:
+                - templates/chromium/gemini/more.png
+              threshold: 0.6
+            next:
+              success: page_end_1
+              fail: start_question
+            timeout: 150.0
+
+          page_end_1:
+            click_center: [100, 300]     # Центр области клика (x, y)
+            click_radius: [40, 30]   
+            action: click_ctrl_end
+            condition:
+              templates:
+                - templates/chromium/gemini/like.png
+              threshold: 0.7
+            next:
+              success: end_of_answer_1
+              fail: start_question
+            timeout: 20.0
+
+          # find_copy_button_1:
+          #   expect:
+          #     templates:
+          #       - templates/chromium/gemini/more.png
+          #     threshold: 0.7
+          #   action: click
+          #   condition:
+          #     templates:
+          #       - templates/chromium/gemini/copy.png
+          #     threshold: 0.7
+          #   next:
+          #     success: end_of_answer_1
+          #     fail: start_question
+          #   timeout: 120.0
+
+          end_of_answer_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/copy.png
+              threshold: 0.7
+            action: click_copy_save_json_check
+            condition:
+              json_valid: true            
+            next:
+              success: click_like_1
+              fail: click_dislike_1
+            timeout: 120.0
+
+          # find_like_button_1:
+          #   expect:
+          #     templates:
+          #       - templates/chromium/gemini/like.png
+          #     threshold: 0.7
+          #   action: click
+          #   condition:
+          #     templates:
+          #       - templates/chromium/gemini/like.png
+          #     threshold: 0.7
+          #   next:
+          #     success: click_like_1
+          #     fail: start_question
+          #   timeout: 120.0
+
+          click_like_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/like.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gemini/voice_mode_0.png
+              threshold: 0.7         
+            next:
+              success: start_question
+              fail: start_question
+            timeout: 120.0          
+
+          # find_dislike_button_1:
+          #   expect:
+          #     templates:
+          #       - templates/chromium/gemini/dislike.png
+          #     threshold: 0.7
+          #   action: click
+          #   condition:
+          #     templates:
+          #       - templates/chromium/gemini/dislike.png
+          #     threshold: 0.7
+          #   next:
+          #     success: click_dislike_1
+          #     fail: start_question
+          #   timeout: 120.0
+
+          click_dislike_1:
+            expect:
+              templates:
+                - templates/chromium/gemini/dislike.png
+              threshold: 0.7
+            action: click
+            condition:
+              templates:
+                - templates/chromium/gemini/voice_mode_0.png
+              threshold: 0.7         
+            next:
+              success: start_question
+              fail: start_question
+            timeout: 120.0  
 
       pro:
         start_state: start_question

@@ -250,7 +250,7 @@ bot_12:
   roi: [0, 0, 960, 800]
   cooldown: 1.0
   question_interval: 200.0
-  row_range: [1601, 1630]
+  row_range: [1631, 1670]
   max_questions: 50
   restart_delay: 0
   proxy: [186.65.122.102, 8000, bbaBmV, vEyoqs]
@@ -301,7 +301,7 @@ bot_20:
   site: gemini
   mode: thinking
   model: gemini
-  scenario: thinking_0
+  scenario: thinking_1
   browser_master_profile: ~/vanthuan1990t@gmail.com
   dataset_path: datasets/sp_after_2000_good.csv
   columns:
@@ -310,7 +310,7 @@ bot_20:
     - used
   roi: [0, 0, 960, 800]
   cooldown: 1.0
-  question_interval: 180.0
+  question_interval: 150.0
   row_range: [2151, 2350]
   max_questions: 300
   restart_delay: 0
@@ -330,7 +330,7 @@ bot_21:
   site: gemini
   mode: thinking
   model: gemini
-  scenario: thinking_0
+  scenario: thinking_1
   browser_master_profile: ~/hoanghao1994hy@gmail.com
   dataset_path: datasets/sp_after_2000_good.csv
   columns:

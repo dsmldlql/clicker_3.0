@@ -1,4 +1,7 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1527|35d14d81-ddd9-43ce-a15e-f6e11582a313|общий|2300-1|Закон РФ|4||07.02.1992|1|1|gemini
-1527|35d14d81-ddd9-43ce-a15e-f6e11582a313|общий|2300-1|Закон РФ|18||07.02.1992|1|1|gemini
-1527|35d14d81-ddd9-43ce-a15e-f6e11582a313|специальный|2300-1|Закон РФ|19||07.02.1992|1|1|gemini
+1527|6445534c-3516-4aa1-b38f-5c288b6463ca|общий||НК РФ|220|||5|5|claude;gemini;gpt;grok;qwen
+1527|6445534c-3516-4aa1-b38f-5c288b6463ca|специальный||НК РФ|217.1|||4|5|claude;gpt;grok;qwen
+1527|6445534c-3516-4aa1-b38f-5c288b6463ca|общий||НК РФ|217|||3|5|claude;gemini;qwen
+1527|6445534c-3516-4aa1-b38f-5c288b6463ca|специальный||НК РФ|214.10|||2|5|gemini;qwen
+1527|6445534c-3516-4aa1-b38f-5c288b6463ca|общий||НК РФ|218|||1|5|gpt
+1527|6445534c-3516-4aa1-b38f-5c288b6463ca|общий||НК РФ|228|||1|5|grok

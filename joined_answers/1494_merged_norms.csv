@@ -1,5 +1,14 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1494|9aed705a-6f09-4645-ae7f-fc03703de3c7|общий||ГК РФ|185|||1|1|gemini
-1494|9aed705a-6f09-4645-ae7f-fc03703de3c7|специальный|2300-1|Закон РФ|16||07.02.1992|1|1|gemini
-1494|9aed705a-6f09-4645-ae7f-fc03703de3c7|общий||ГК РФ|428|||1|1|gemini
-1494|9aed705a-6f09-4645-ae7f-fc03703de3c7|общий||ГК РФ|310|||1|1|gemini
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|специальный||ТК РФ|92|||4|5|claude;gemini;gpt;grok
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|специальный||ТК РФ|94|||3|5|gemini;gpt;grok
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|специальный|181-ФЗ|ФЗ|23||24.11.1995|3|5|gemini;gpt;grok
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|специальный|181-ФЗ|ФЗ|11||24.11.1995|2|5|gemini;grok
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|общий||ГК РФ|310|||1|5|qwen
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|общий||ГК РФ|450|||1|5|qwen
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|специальный||ГК РФ|450.1|||1|5|qwen
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|специальный|2300-1|Закон РФ|16||07.02.1992|1|5|qwen
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|общий||ГК РФ|317.1|||1|5|qwen
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|общий||Конституция РФ|37|||1|5|gpt
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|специальный||ТК РФ|224|||1|5|grok
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|общий||ТК РФ|91|||1|5|claude
+1494|7e7f666f-b3f1-41ea-b3b7-ec01ddbfe0a6|общий|181-ФЗ|ФЗ|3.1||24.11.1995|1|5|claude

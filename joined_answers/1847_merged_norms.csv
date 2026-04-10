@@ -1,6 +1,11 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1847|eab57cd2-a19c-4037-8132-c41a6c9cb499|общий||ГК РФ|450|||1|1|gemini
-1847|eab57cd2-a19c-4037-8132-c41a6c9cb499|специальный|283-ФЗ|ФЗ|18||03.08.2018|1|1|gemini
-1847|eab57cd2-a19c-4037-8132-c41a6c9cb499|общий||КоАП РФ|2.6.1|||1|1|gemini
-1847|eab57cd2-a19c-4037-8132-c41a6c9cb499|общий||НК РФ|357|||1|1|gemini
-1847|eab57cd2-a19c-4037-8132-c41a6c9cb499|специальный|1653|ПП РФ||2|12.12.2019|1|1|gemini
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|общий||ЗК РФ|15|||4|4|claude;gemini;gpt;grok
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|специальный|101-ФЗ|ФЗ|3||24.07.2002|3|4|claude;gpt;grok
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|общий||Конституция РФ|62|||2|4|gemini;gpt
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|общий||ГК РФ|209|||2|4|claude;gpt
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|общий||ГК РФ|549|||2|4|claude;gpt
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|общий||ГК РФ|213|||2|4|gemini;grok
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|специальный|218-ФЗ|ФЗ|14||13.07.2015|1|4|grok
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|специальный|217-ФЗ|ФЗ|3||29.07.2017|1|4|grok
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|специальный|101-ФЗ|ФЗ|1||24.07.2002|1|4|gemini
+1847|75af7fdd-c9cd-4efa-a48a-b18640267c33|специальный|26|УП РФ|||09.01.2011|1|4|gemini

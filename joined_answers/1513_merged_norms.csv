@@ -1,4 +1,10 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1513|3e96e747-b39a-4a0e-88a6-fcaa2e0bee6c|общий||КоАП РФ|2.6.1|||1|1|gemini
-1513|3e96e747-b39a-4a0e-88a6-fcaa2e0bee6c|общий||КоАП РФ|30.3|||1|1|gemini
-1513|3e96e747-b39a-4a0e-88a6-fcaa2e0bee6c|общий||КоАП РФ|30.2|||1|1|gemini
+1513|1e44efd5-f445-4dc3-a138-bda6d871b55a|специальный||КоАП РФ|12.2|||4|5|gemini;gpt;grok;qwen
+1513|1e44efd5-f445-4dc3-a138-bda6d871b55a|общий||КоАП РФ|25.1|||3|5|gemini;grok;qwen
+1513|1e44efd5-f445-4dc3-a138-bda6d871b55a|общий||КоАП РФ|28.2|||2|5|gemini;grok
+1513|1e44efd5-f445-4dc3-a138-bda6d871b55a|общий||КоАП РФ|30.3|||2|5|gemini;grok
+1513|1e44efd5-f445-4dc3-a138-bda6d871b55a|специальный||КоАП РФ|29.6|||1|5|qwen
+1513|1e44efd5-f445-4dc3-a138-bda6d871b55a|специальный||КоАП РФ|30.1|||1|5|qwen
+1513|1e44efd5-f445-4dc3-a138-bda6d871b55a|специальный||КоАП РФ|23.1|||1|5|grok
+1513|1e44efd5-f445-4dc3-a138-bda6d871b55a|общий|2300-1|Закон РФ|25||07.02.1992|1|5|claude
+1513|1e44efd5-f445-4dc3-a138-bda6d871b55a|специальный|55|ПП РФ|||19.01.1998|1|5|claude

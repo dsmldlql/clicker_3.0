@@ -1,6 +1,12 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1549|72b13da7-d25d-4001-bde9-d39e9d440b36|общий||КоАП РФ|1.5|||1|1|gemini
-1549|72b13da7-d25d-4001-bde9-d39e9d440b36|специальный||КоАП РФ|2.6.1|||1|1|gemini
-1549|72b13da7-d25d-4001-bde9-d39e9d440b36|специальный|195-ФЗ|Кодекс Российской Федерации об administrative правонарушениях|2.6.1||30.12.2001|1|1|gemini
-1549|72b13da7-d25d-4001-bde9-d39e9d440b36|общий||КоАП РФ|30.1|||1|1|gemini
-1549|72b13da7-d25d-4001-bde9-d39e9d440b36|общий||КоАП РФ|30.3|||1|1|gemini
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|специальный||ЖК РФ|69|||3|5|gemini;grok;qwen
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|специальный||ЖК РФ|91|||3|5|gpt;grok;qwen
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|специальный||ЖК РФ|70|||2|5|gemini;qwen
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|общий||ЖК РФ|31|||2|5|claude;gpt
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|общий||ЖК РФ|35|||2|5|gemini;gpt
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|общий||ГК РФ|20|||1|5|qwen
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|специальный||СК РФ|54|||1|5|qwen
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|специальный||ЖК РФ|83|||1|5|grok
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|специальный||СК РФ|20|||1|5|grok
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|общий||ЖК РФ|84|||1|5|claude
+1549|df25ecf5-27f1-46aa-a4ce-c85a78e0770b|общий||ЖК РФ|90|||1|5|claude

@@ -1,5 +1,10 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1993|5ed71f95-cbd5-4cd8-8079-f5fdb58e8298|общий||ГК РФ|309|||1|1|gemini
-1993|5ed71f95-cbd5-4cd8-8079-f5fdb58e8298|общий||ГК РФ|310|||1|1|gemini
-1993|5ed71f95-cbd5-4cd8-8079-f5fdb58e8298|общий||ГК РФ|314|||1|1|gemini
-1993|5ed71f95-cbd5-4cd8-8079-f5fdb58e8298|общий||ГПК РФ|132|||1|1|gemini
+1993|d5be5042-1865-4412-904c-1fddf1fcb23b|специальный||НК РФ|217|||3|3|claude;gemini;grok
+1993|d5be5042-1865-4412-904c-1fddf1fcb23b|специальный||ГК РФ|572|||3|3|claude;gemini;grok
+1993|d5be5042-1865-4412-904c-1fddf1fcb23b|общий||НК РФ|210|||2|3|claude;grok
+1993|d5be5042-1865-4412-904c-1fddf1fcb23b|общий||НК РФ|224|||2|3|claude;grok
+1993|d5be5042-1865-4412-904c-1fddf1fcb23b|специальный||НК РФ|105.3|||1|3|grok
+1993|d5be5042-1865-4412-904c-1fddf1fcb23b|специальный||НК РФ|217.1|||1|3|claude
+1993|d5be5042-1865-4412-904c-1fddf1fcb23b|общий||ГК РФ|170|||1|3|claude
+1993|d5be5042-1865-4412-904c-1fddf1fcb23b|общий||ГК РФ|182|||1|3|gemini
+1993|d5be5042-1865-4412-904c-1fddf1fcb23b|специальный||НК РФ|214.10|||1|3|gemini

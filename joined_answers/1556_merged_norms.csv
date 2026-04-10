@@ -1,6 +1,15 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1556|e9ec275e-66b9-417a-ba11-2bca70673e21|общий||ГК РФ|782|||1|1|gemini
-1556|e9ec275e-66b9-417a-ba11-2bca70673e21|специальный|2300-1|Закон РФ|32||07.02.1992|1|1|gemini
-1556|e9ec275e-66b9-417a-ba11-2bca70673e21|специальный|2300-1|Закон РФ|16||07.02.1992|1|1|gemini
-1556|e9ec275e-66b9-417a-ba11-2bca70673e21|специальный|273-ФЗ|ФЗ|61||29.12.2012|1|1|gemini
-1556|e9ec275e-66b9-417a-ba11-2bca70673e21|специальный|1441|ПП РФ||14|15.09.2020|1|1|gemini
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный|2300-1|Закон РФ|16||07.02.1992|4|5|claude;gemini;gpt;qwen
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|общий||ГК РФ|421|||4|5|claude;gemini;grok;qwen
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный|2300-1|Закон РФ|32||07.02.1992|3|5|gemini;gpt;qwen
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|общий||ГК РФ|168|||2|5|claude;grok
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный||ГК РФ|935|||1|5|qwen
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|общий||ГК РФ|10|||1|5|gpt
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный||НК РФ|54.1|||1|5|grok
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный|2300-1|Закон РФ|10||07.02.1992|1|5|grok
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный||УК РФ|199|||1|5|grok
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный||ГК РФ|454|||1|5|grok
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|общий||ГК РФ|958|||1|5|claude
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный|353-ФЗ|ФЗ|7||21.12.2013|1|5|claude
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный|2300-1|Закон РФ|12||07.02.1992|1|5|claude
+1556|e21bcd1c-cf8b-462d-8fc2-7f6a8cd06bac|специальный|353-ФЗ|ФЗ|11||21.12.2013|1|5|gemini

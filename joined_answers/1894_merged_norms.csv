@@ -1,6 +1,10 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1894|a8e0683e-cbeb-4cbf-8419-50b1efc60adb|общий||ГрК РФ|1|||1|1|gemini
-1894|a8e0683e-cbeb-4cbf-8419-50b1efc60adb|специальный||ГрК РФ|51.1|||1|1|gemini
-1894|a8e0683e-cbeb-4cbf-8419-50b1efc60adb|общий||ГрК РФ|44|||1|1|gemini
-1894|a8e0683e-cbeb-4cbf-8419-50b1efc60adb|специальный|218-ФЗ|ФЗ|70||13.07.2015|1|1|gemini
-1894|a8e0683e-cbeb-4cbf-8419-50b1efc60adb|специальный||ГрК РФ|55|||1|1|gemini
+1894|3ac5c801-518d-4d2e-a1fd-0954a29dd7dd|общий|5242-1|Закон РФ|5||25.06.1993|3|3|claude;gemini;grok
+1894|3ac5c801-518d-4d2e-a1fd-0954a29dd7dd|специальный|713|ПП РФ||12|17.07.1995|2|3|gemini;grok
+1894|3ac5c801-518d-4d2e-a1fd-0954a29dd7dd|общий||ЖК РФ|30|||2|3|gemini;grok
+1894|3ac5c801-518d-4d2e-a1fd-0954a29dd7dd|специальный||КоАП РФ|19.15.2|||2|3|claude;grok
+1894|3ac5c801-518d-4d2e-a1fd-0954a29dd7dd|специальный||КоАП РФ|19.15.1|||2|3|claude;gemini
+1894|3ac5c801-518d-4d2e-a1fd-0954a29dd7dd|общий||ГК РФ|671|||1|3|grok
+1894|3ac5c801-518d-4d2e-a1fd-0954a29dd7dd|общий|5242-1|Закон РФ|3||25.06.1993|1|3|claude
+1894|3ac5c801-518d-4d2e-a1fd-0954a29dd7dd|специальный|713|ПП РФ||9|17.07.1995|1|3|claude
+1894|3ac5c801-518d-4d2e-a1fd-0954a29dd7dd|общий||ГК РФ|209|||1|3|claude

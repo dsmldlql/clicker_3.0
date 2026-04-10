@@ -1,5 +1,7 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1502|12af957b-7ab1-4870-af8a-c1c2fc824225|общий||ТК РФ|80|||1|1|gemini
-1502|12af957b-7ab1-4870-af8a-c1c2fc824225|специальный||ТК РФ|256|||1|1|gemini
-1502|12af957b-7ab1-4870-af8a-c1c2fc824225|специальный|255-ФЗ|ФЗ|11.1||29.12.2006|1|1|gemini
-1502|12af957b-7ab1-4870-af8a-c1c2fc824225|общий|255-ФЗ|ФЗ|13||29.12.2006|1|1|gemini
+1502|5a550365-a11f-485a-a197-e963dac3434d|специальный||ГК РФ|250|||5|5|claude;gemini;gpt;grok;qwen
+1502|5a550365-a11f-485a-a197-e963dac3434d|общий||ГК РФ|246|||5|5|claude;gemini;gpt;grok;qwen
+1502|5a550365-a11f-485a-a197-e963dac3434d|общий||ГК РФ|252|||4|5|claude;gemini;gpt;qwen
+1502|5a550365-a11f-485a-a197-e963dac3434d|специальный|218-ФЗ|ФЗ|42||13.07.2015|3|5|gemini;grok;qwen
+1502|5a550365-a11f-485a-a197-e963dac3434d|общий||ГК РФ|551|||2|5|grok;qwen
+1502|5a550365-a11f-485a-a197-e963dac3434d|специальный||ЖК РФ|30|||1|5|gemini

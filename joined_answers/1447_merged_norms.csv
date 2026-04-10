@@ -1,4 +1,8 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1447|2a357498-04e0-4077-b34a-2c3ca4bf3703|общий|40-ФЗ|ФЗ|4||25.04.2002|1|1|gemini
-1447|2a357498-04e0-4077-b34a-2c3ca4bf3703|специальный|196-ФЗ|ФЗ|32||10.12.1995|1|1|gemini
-1447|2a357498-04e0-4077-b34a-2c3ca4bf3703|общий||КоАП РФ|12.37|||1|1|gemini
+1447|0b616ea7-ffad-4be1-9cd5-6ad84ef07fde|специальный||НК РФ|217.1|||5|5|claude;gemini;gpt;grok;qwen
+1447|0b616ea7-ffad-4be1-9cd5-6ad84ef07fde|специальный|256-ФЗ|ФЗ|10||29.12.2006|3|5|gemini;grok;qwen
+1447|0b616ea7-ffad-4be1-9cd5-6ad84ef07fde|общий||ГК РФ|218|||3|5|gpt;grok;qwen
+1447|0b616ea7-ffad-4be1-9cd5-6ad84ef07fde|общий||НК РФ|220|||2|5|gpt;qwen
+1447|0b616ea7-ffad-4be1-9cd5-6ad84ef07fde|общий||НК РФ|217|||1|5|qwen
+1447|0b616ea7-ffad-4be1-9cd5-6ad84ef07fde|общий||ГК РФ|244|||1|5|qwen
+1447|0b616ea7-ffad-4be1-9cd5-6ad84ef07fde|специальный||НК РФ|218|||1|5|claude

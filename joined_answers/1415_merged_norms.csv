@@ -1,5 +1,14 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1415|8138b8e0-fce1-4b68-b6ca-21dbba5681a4|общий||ТК РФ|325|||1|1|gemini
-1415|8138b8e0-fce1-4b68-b6ca-21dbba5681a4|специальный|455|ПП РФ|2||12.06.2008|1|1|gemini
-1415|8138b8e0-fce1-4b68-b6ca-21dbba5681a4|специальный|197-ФЗ|ФЗ|56||19.07.2018|1|1|gemini
-1415|8138b8e0-fce1-4b68-b6ca-21dbba5681a4|специальный|63|ПП РФ|5||30.01.2013|1|1|gemini
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|общий||НК РФ|217|||3|5|gemini;grok;qwen
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|специальный||СК РФ|34|||3|5|gemini;grok;qwen
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|общий||НК РФ|217.1|||2|5|grok;qwen
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|общий||НК РФ|220|||2|5|grok;qwen
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|специальный||СК РФ|38|||2|5|grok;qwen
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|общий||НК РФ|228|||1|5|qwen
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|общий||НК РФ|229|||1|5|qwen
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|общий||ГК РФ|218|||1|5|qwen
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|общий|14-ФЗ|ФЗ|21||08.02.1998|1|5|gpt
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|специальный||СК РФ|35|||1|5|gpt
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|специальный|40-ФЗ|ФЗ|12||25.04.2002|1|5|claude
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|специальный|40-ФЗ|ФЗ|16.1||25.04.2002|1|5|claude
+1415|2e9c57d5-ca04-4bc1-89a8-9fcaab3e61ff|общий||ГК РФ|256|||1|5|gemini

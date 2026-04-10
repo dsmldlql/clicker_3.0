@@ -1,5 +1,11 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1215|f021ea07-67ab-4cac-8551-9b1690aaf2e0|общий||НК РФ|217.1|||1|1|gemini
-1215|f021ea07-67ab-4cac-8551-9b1690aaf2e0|специальный||НК РФ|229|||1|1|gemini
-1215|f021ea07-67ab-4cac-8551-9b1690aaf2e0|специальный||НК РФ|220|||1|1|gemini
-1215|f021ea07-67ab-4cac-8551-9b1690aaf2e0|общий||НК РФ|214.10|||1|1|gemini
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|общий|256-ФЗ|ФЗ|3||29.12.2006|5|5|claude;gemini;gpt;grok;qwen
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|специальный|634-ФЗ|ФЗ|1||25.12.2023|3|5|gemini;grok;qwen
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|общий|62-ФЗ|ФЗ|14||31.05.2002|2|5|grok;qwen
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|специальный|634-ФЗ|ФЗ|2||25.12.2023|2|5|gemini;grok
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|специальный|133|ПП РФ|2||01.02.2023|1|5|qwen
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|общий|256-ФЗ|ФЗ|5||29.12.2006|1|5|qwen
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|общий||КАС РФ|218|||1|5|qwen
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|специальный|256-ФZ|ФЗ|3||29.12.2006|1|5|gpt
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|специальный|634-ФЗ|ФЗ|3||25.12.2023|1|5|gpt
+1215|b5bb6395-aa8d-4e9c-8e1b-c71db65fc146|общий|138-ФЗ|ФЗ|13||28.04.2023|1|5|gemini

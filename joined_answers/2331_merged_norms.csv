@@ -1,4 +1,10 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-2331|3ed803b1-f10d-4477-a053-ceec7e553f0c|специальный|229-ФЗ|ФЗ|122||02.10.2007|1|1|gpt
-2331|3ed803b1-f10d-4477-a053-ceec7e553f0c|специальный|229-ФЗ|ФЗ|80||02.10.2007|1|1|gpt
-2331|3ed803b1-f10d-4477-a053-ceec7e553f0c|общий||ГК РФ|854|||1|1|gpt
+2331|fdb0bd7a-9e5b-48ff-a376-067f1ea25783|специальный||КоАП РФ|12.8|||3|3|claude;gemini;grok
+2331|fdb0bd7a-9e5b-48ff-a376-067f1ea25783|специальный||УК РФ|264.1|||3|3|claude;gemini;grok
+2331|fdb0bd7a-9e5b-48ff-a376-067f1ea25783|специальный||КоАП РФ|12.26|||2|3|claude;grok
+2331|fdb0bd7a-9e5b-48ff-a376-067f1ea25783|общий||КоАП РФ|4.1|||1|3|grok
+2331|fdb0bd7a-9e5b-48ff-a376-067f1ea25783|специальный||КоАП РФ|30.3|||1|3|grok
+2331|fdb0bd7a-9e5b-48ff-a376-067f1ea25783|специальный||УК РФ|264|||1|3|claude
+2331|fdb0bd7a-9e5b-48ff-a376-067f1ea25783|специальный|1090|ПДД РФ||2.7|23.10.1993|1|3|claude
+2331|fdb0bd7a-9e5b-48ff-a376-067f1ea25783|общий|1090|ПП РФ|2.7||23.10.1993|1|3|gemini
+2331|fdb0bd7a-9e5b-48ff-a376-067f1ea25783|общий||КоАП РФ|27.12|||1|3|gemini

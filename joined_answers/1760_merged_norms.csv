@@ -1,5 +1,14 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1760|200a972f-93e1-4a54-a6b3-b1690febbec1|специальный||СК РФ|35|||1|1|gemini
-1760|200a972f-93e1-4a54-a6b3-b1690febbec1|общий||ГК РФ|389|||1|1|gemini
-1760|200a972f-93e1-4a54-a6b3-b1690febbec1|общий||НК РФ|210|||1|1|gemini
-1760|200a972f-93e1-4a54-a6b3-b1690febbec1|специальный||НК РФ|220|||1|1|gemini
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий||ГК РФ|1102|||3|4|gemini;gpt;grok
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий||ГК РФ|395|||2|4|gemini;gpt
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|специальный|2300-1|Закон РФ|23.1||07.02.1992|2|4|gpt;grok
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий||ГПК РФ|131|||2|4|gemini;gpt
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий||ГК РФ|487|||2|4|gemini;grok
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий||ГК РФ|1105|||1|4|gpt
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|специальный|2300-1|Закон РФ|13||07.02.1992|1|4|gpt
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий||ГПК РФ|23|||1|4|grok
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|специальный|2300-1|Закон РФ|17||07.02.1992|1|4|grok
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий||ЖК РФ|52|||1|4|claude
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий||ЖК РФ|57|||1|4|claude
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий||ЖК РФ|56|||1|4|claude
+1760|3bba75bd-b3da-4155-ac64-e10eff8c8fe2|общий|59-ФЗ|ФЗ|12||02.05.2006|1|4|claude

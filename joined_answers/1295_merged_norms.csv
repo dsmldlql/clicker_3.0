@@ -1,6 +1,13 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1295|d2f13c73-1001-4eae-a5a5-0a30582bb157|общий|2300-1|Закон РФ|7||07.02.1992|1|1|gemini
-1295|d2f13c73-1001-4eae-a5a5-0a30582bb157|специальный|2300-1|Закон РФ|14||07.02.1992|1|1|gemini
-1295|d2f13c73-1001-4eae-a5a5-0a30582bb157|общий||ГК РФ|1095|||1|1|gemini
-1295|d2f13c73-1001-4eae-a5a5-0a30582bb157|специальный|2300-1|Закон РФ|18||07.02.1992|1|1|gemini
-1295|d2f13c73-1001-4eae-a5a5-0a30582bb157|специальный|2300-1|Закон РФ|15||07.02.1992|1|1|gemini
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|общий||КоАП РФ|24.7|||4|5|claude;gpt;grok;qwen
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|общий||ГК РФ|15|||4|5|claude;gemini;gpt;qwen
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|специальный||ГК РФ|1069|||4|5|claude;gemini;gpt;qwen
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|специальный||ГК РФ|1070|||2|5|claude;gpt
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|специальный||КоАП РФ|30.7|||1|5|qwen
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|специальный||КАС РФ|24|||1|5|qwen
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|общий||КАС РФ|1|||1|5|qwen
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|специальный||КоАП РФ|30.2|||1|5|gpt
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|специальный||КоАП РФ|30.13|||1|5|grok
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|специальный||КоАП РФ|31.7|||1|5|grok
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|специальный||КоАП РФ|25.14|||1|5|claude
+1295|3a5312ee-dbdb-44b9-a2fd-9f68abc16aaa|специальный||ГК РФ|16|||1|5|gemini

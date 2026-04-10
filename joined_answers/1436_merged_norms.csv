@@ -1,4 +1,8 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1436|52c58afd-d658-4d2f-a566-98e3f8a8e460|общий||СК РФ|81|||1|1|gemini
-1436|52c58afd-d658-4d2f-a566-98e3f8a8e460|общий||ГПК РФ|56|||1|1|gemini
-1436|52c58afd-d658-4d2f-a566-98e3f8a8e460|специальный||СК РФ|119|||1|1|gemini
+1436|0c8b0463-ce9e-4183-971c-ddfaff7a7827|специальный||НК РФ|220|||5|5|claude;gemini;gpt;grok;qwen
+1436|0c8b0463-ce9e-4183-971c-ddfaff7a7827|общий||НК РФ|210|||4|5|claude;gemini;gpt;qwen
+1436|0c8b0463-ce9e-4183-971c-ddfaff7a7827|общий||НК РФ|224|||3|5|claude;grok;qwen
+1436|0c8b0463-ce9e-4183-971c-ddfaff7a7827|специальный||НК РФ|214|||2|5|gpt;qwen
+1436|0c8b0463-ce9e-4183-971c-ddfaff7a7827|общий||НК РФ|218|||1|5|gpt
+1436|0c8b0463-ce9e-4183-971c-ddfaff7a7827|общий||НК РФ|209|||1|5|grok
+1436|0c8b0463-ce9e-4183-971c-ddfaff7a7827|общий||НК РФ|208|||1|5|grok

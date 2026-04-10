@@ -1,6 +1,8 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1526|a9e2d6de-cc23-4289-a041-864f20c41237|общий||ГК РФ|554|||1|1|gemini
-1526|a9e2d6de-cc23-4289-a041-864f20c41237|специальный|101-ФЗ|ФЗ|8||24.07.2002|1|1|gemini
-1526|a9e2d6de-cc23-4289-a041-864f20c41237|специальный|101-ФЗ|ФЗ|4||24.07.2002|1|1|gemini
-1526|a9e2d6de-cc23-4289-a041-864f20c41237|общий||ЗК РФ|37|||1|1|gemini
-1526|a9e2d6de-cc23-4289-a041-864f20c41237|общий||ГК РФ|432|||1|1|gemini
+1526|cecd6c17-3d07-45ba-9946-56aa8894fde2|общий||СК РФ|80|||4|5|claude;gpt;grok;qwen
+1526|cecd6c17-3d07-45ba-9946-56aa8894fde2|специальный||СК РФ|113|||4|5|gemini;gpt;grok;qwen
+1526|cecd6c17-3d07-45ba-9946-56aa8894fde2|общий||СК РФ|81|||4|5|claude;gemini;gpt;qwen
+1526|cecd6c17-3d07-45ba-9946-56aa8894fde2|специальный||СК РФ|83|||3|5|claude;gpt;qwen
+1526|cecd6c17-3d07-45ba-9946-56aa8894fde2|специальный||СК РФ|114|||3|5|gemini;grok;qwen
+1526|cecd6c17-3d07-45ba-9946-56aa8894fde2|специальный|229-ФЗ|ФЗ|102||02.10.2007|2|5|gemini;grok
+1526|cecd6c17-3d07-45ba-9946-56aa8894fde2|специальный||СК РФ|119|||1|5|grok

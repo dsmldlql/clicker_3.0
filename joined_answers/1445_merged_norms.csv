@@ -1,4 +1,11 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1445|d6e002c8-44ed-43f6-8e03-60332849e0d7|общий||ГК РФ|549|||1|1|gemini
-1445|d6e002c8-44ed-43f6-8e03-60332849e0d7|специальный||НК РФ|220|||1|1|gemini
-1445|d6e002c8-44ed-43f6-8e03-60332849e0d7|общий|218-ФЗ|ФЗ|42||13.07.2015|1|1|gemini
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|специальный||НК РФ|217|||5|5|claude;gemini;gpt;grok;qwen
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|общий||НК РФ|209|||4|5|claude;gpt;grok;qwen
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|общий||НК РФ|210|||3|5|gpt;grok;qwen
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|общий||НК РФ|41|||3|5|claude;gemini;gpt
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|общий||НК РФ|224|||2|5|grok;qwen
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|общий||НК РФ|226|||2|5|gpt;qwen
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|общий||НК РФ|228|||2|5|gemini;grok
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|специальный|2300-1|Закон РФ|13||07.02.1992|1|5|qwen
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|общий||НК РФ|207|||1|5|claude
+1445|21cc7a3f-bad0-4e23-96ed-36dcd01adfa7|общий||НК РФ|208|||1|5|gemini

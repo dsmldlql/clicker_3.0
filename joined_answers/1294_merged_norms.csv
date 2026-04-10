@@ -1,4 +1,10 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1294|9182ae64-41b2-40d8-bf4f-a42b4eaf7e63|специальный|1291|ПП РФ||3|26.12.2013|1|1|gemini
-1294|9182ae64-41b2-40d8-bf4f-a42b4eaf7e63|специальный|1291|ПП РФ||141|26.12.2013|1|1|gemini
-1294|9182ae64-41b2-40d8-bf4f-a42b4eaf7e63|общий|1291|ПП РФ||16|26.12.2013|1|1|gemini
+1294|c3c481eb-63fc-44b0-b051-be2ffdb4c491|специальный|2300-1|Закон РФ|18||07.02.1992|5|5|claude;gemini;gpt;grok;qwen
+1294|c3c481eb-63fc-44b0-b051-be2ffdb4c491|специальный|2300-1|Закон РФ|19||07.02.1992|5|5|claude;gemini;gpt;grok;qwen
+1294|c3c481eb-63fc-44b0-b051-be2ffdb4c491|специальный|2300-1|Закон РФ|22||07.02.1992|3|5|gemini;gpt;qwen
+1294|c3c481eb-63fc-44b0-b051-be2ffdb4c491|специальный|2300-1|Закон РФ|20||07.02.1992|2|5|grok;qwen
+1294|c3c481eb-63fc-44b0-b051-be2ffdb4c491|общий||ГК РФ|196|||2|5|claude;grok
+1294|c3c481eb-63fc-44b0-b051-be2ffdb4c491|специальный|2300-1|Закон РФ|23||07.02.1992|1|5|qwen
+1294|c3c481eb-63fc-44b0-b051-be2ffdb4c491|общий||ГК РФ|477|||1|5|qwen
+1294|c3c481eb-63fc-44b0-b051-be2ffdb4c491|специальный|2300-1|Закон РФ|5||07.02.1992|1|5|qwen
+1294|c3c481eb-63fc-44b0-b051-be2ffdb4c491|общий||ГК РФ|503|||1|5|gpt

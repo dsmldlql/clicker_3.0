@@ -1,5 +1,10 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1899|44fc1c1c-61c8-4b69-ba96-2b692bf51bc4|общий||КоАП РФ|30.3|||1|1|gemini
-1899|44fc1c1c-61c8-4b69-ba96-2b692bf51bc4|специальный||КоАП РФ|29.10|||1|1|gemini
-1899|44fc1c1c-61c8-4b69-ba96-2b692bf51bc4|специальный||КоАП РФ|29.11|||1|1|gemini
-1899|44fc1c1c-61c8-4b69-ba96-2b692bf51bc4|общий||КоАП РФ|4.5|||1|1|gemini
+1899|7606141c-3bcb-42a0-8dfe-f8b4b98c8e4d|общий||КоАП РФ|30.3|||3|3|claude;gemini;grok
+1899|7606141c-3bcb-42a0-8dfe-f8b4b98c8e4d|специальный||КоАП РФ|8.14|||3|3|claude;gemini;grok
+1899|7606141c-3bcb-42a0-8dfe-f8b4b98c8e4d|общий||КоАП РФ|2.9|||1|3|grok
+1899|7606141c-3bcb-42a0-8dfe-f8b4b98c8e4d|общий||КоАП РФ|30.1|||1|3|grok
+1899|7606141c-3bcb-42a0-8dfe-f8b4b98c8e4d|общий||БК РФ|40.1|||1|3|grok
+1899|7606141c-3bcb-42a0-8dfe-f8b4b98c8e4d|общий||КоАП РФ|1.5|||1|3|claude
+1899|7606141c-3bcb-42a0-8dfe-f8b4b98c8e4d|общий||КоАП РФ|24.5|||1|3|claude
+1899|7606141c-3bcb-42a0-8dfe-f8b4b98c8e4d|общий||КоАП РФ|30.2|||1|3|claude
+1899|7606141c-3bcb-42a0-8dfe-f8b4b98c8e4d|специальный|289-ПП|ПП РФ||2.4|17.05.2013|1|3|gemini

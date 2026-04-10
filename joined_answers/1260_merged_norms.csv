@@ -1,3 +1,5 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1260|df7ea5d5-5164-48a3-aee1-b882e2e047a1|специальный||НК РФ|217.1|||1|1|gemini
-1260|df7ea5d5-5164-48a3-aee1-b882e2e047a1|общий|217-ФЗ|ФЗ|3||29.07.2017|1|1|gemini
+1260|df7ea5d5-5164-48a3-aee1-b882e2e047a1|специальный||НК РФ|217.1|||5|5|claude;gemini;gpt;grok;qwen
+1260|df7ea5d5-5164-48a3-aee1-b882e2e047a1|специальный||НК РФ|220|||2|5|grok;qwen
+1260|df7ea5d5-5164-48a3-aee1-b882e2e047a1|общий||НК РФ|217|||2|5|claude;qwen
+1260|df7ea5d5-5164-48a3-aee1-b882e2e047a1|общий|217-ФЗ|ФЗ|3||29.07.2017|1|5|gemini

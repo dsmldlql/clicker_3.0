@@ -1,5 +1,11 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1343|d710c42f-da5e-42e8-a432-bb044bd0f933|общий||ГК РФ|310|||1|1|gemini
-1343|d710c42f-da5e-42e8-a432-bb044bd0f933|общий||ГК РФ|450|||1|1|gemini
-1343|d710c42f-da5e-42e8-a432-bb044bd0f933|специальный||ЖК РФ|162|||1|1|gemini
-1343|d710c42f-da5e-42e8-a432-bb044bd0f933|специальный||ЖК РФ|155|||1|1|gemini
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|специальный||ГК РФ|782|||5|5|claude;gemini;gpt;grok;qwen
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|общий||ГК РФ|450.1|||4|5|claude;gemini;gpt;qwen
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|общий||ГК РФ|450|||3|5|gpt;grok;qwen
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|специальный||ГК РФ|779|||3|5|claude;grok;qwen
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|общий||ГК РФ|452|||2|5|grok;qwen
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|общий||ГК РФ|407|||2|5|gpt;grok
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|специальный|422-ФЗ|ФЗ|4||27.11.2018|1|5|qwen
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|общий||ГК РФ|408|||1|5|claude
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|общий||ГК РФ|453|||1|5|claude
+1343|060c1781-e45f-4ce6-98a2-81a6bc19a29a|общий||ГК РФ|425|||1|5|gemini

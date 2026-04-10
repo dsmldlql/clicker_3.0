@@ -1,6 +1,14 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1405|f8ca4ac2-485d-4a4b-9bdc-460f06f2b2eb|общий||СК РФ|81|||1|1|gemini
-1405|f8ca4ac2-485d-4a4b-9bdc-460f06f2b2eb|специальный||СК РФ|83|||1|1|gemini
-1405|f8ca4ac2-485d-4a4b-9bdc-460f06f2b2eb|специальный||СК РФ|119|||1|1|gemini
-1405|f8ca4ac2-485d-4a4b-9bdc-460f06f2b2eb|общий|229-ФЗ|ФЗ|102||02.10.2007|1|1|gemini
-1405|f8ca4ac2-485d-4a4b-9bdc-460f06f2b2eb|общий||СК РФ|114|||1|1|gemini
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|1152|||5|5|claude;gemini;gpt;grok;qwen
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|131|||3|5|gemini;grok;qwen
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|218|||3|5|claude;grok;qwen
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|1154|||2|5|gpt;qwen
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|специальный|218-ФЗ|ФЗ|14||13.07.2015|2|5|grok;qwen
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|специальный||ГК РФ|1157|||2|5|gemini;grok
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|1153|||1|5|qwen
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|209|||1|5|qwen
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|8.1|||1|5|qwen
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|специальный|218-ФЗ|ФЗ|26||13.07.2015|1|5|qwen
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|1156|||1|5|gpt
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|223|||1|5|claude
+1405|c3bbb71d-40c6-4069-88af-89e32d1702fc|общий||ГК РФ|1162|||1|5|gemini

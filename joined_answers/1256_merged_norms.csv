@@ -1,4 +1,16 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|944|||1|1|gemini
-1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|959|||1|1|gemini
-1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|943|||1|1|gemini
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|929|||3|5|gpt;grok;qwen
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|944|||3|5|gemini;grok;qwen
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|959|||2|5|gemini;qwen
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|специальный|4015-1|Закон РФ|9||27.11.1992|2|5|grok;qwen
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|930|||2|5|gpt;grok
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|961|||1|5|qwen
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|963|||1|5|qwen
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|431|||1|5|qwen
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|928|||1|5|gpt
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|952|||1|5|gpt
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|964|||1|5|grok
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||КоАП РФ|12.15|||1|5|claude
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий|-|ПДД РФ|11.7||утверждены приказом МВД РФ № 1090|1|5|claude
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий|-|ПДД РФ|9.2||утверждены приказом МВД РФ № 1090|1|5|claude
+1256|3aa9bfa2-c6ae-4f33-8d14-6dae7defc69a|общий||ГК РФ|943|||1|5|gemini

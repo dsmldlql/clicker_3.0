@@ -1,5 +1,8 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1492|bea8b73c-f7d8-4b4f-9dcc-9b3c295c905f|специальный||ГК РФ|550|||1|1|gemini
-1492|bea8b73c-f7d8-4b4f-9dcc-9b3c295c905f|общий||ГК РФ|250|||1|1|gemini
-1492|bea8b73c-f7d8-4b4f-9dcc-9b3c295c905f|специальный|218-ФЗ|ФЗ|42||13.07.2015|1|1|gemini
-1492|bea8b73c-f7d8-4b4f-9dcc-9b3c295c905f|общий||ГК РФ|551|||1|1|gemini
+1492|02bc85eb-91cb-40c0-be80-c9fbd8c4a2a2|специальный||НК РФ|100|||5|5|claude;gemini;gpt;grok;qwen
+1492|02bc85eb-91cb-40c0-be80-c9fbd8c4a2a2|специальный||НК РФ|81|||4|5|gemini;gpt;grok;qwen
+1492|02bc85eb-91cb-40c0-be80-c9fbd8c4a2a2|специальный||НК РФ|88|||3|5|gpt;grok;qwen
+1492|02bc85eb-91cb-40c0-be80-c9fbd8c4a2a2|специальный||НК РФ|101|||3|5|gemini;grok;qwen
+1492|02bc85eb-91cb-40c0-be80-c9fbd8c4a2a2|общий||НК РФ|114|||1|5|qwen
+1492|02bc85eb-91cb-40c0-be80-c9fbd8c4a2a2|общий||НК РФ|21|||1|5|grok
+1492|02bc85eb-91cb-40c0-be80-c9fbd8c4a2a2|специальный||НК РФ|138|||1|5|claude

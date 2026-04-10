@@ -1,5 +1,8 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1885|cfa098e8-0bd7-4e4f-be67-9080aa1db621|общий||ГК РФ|437|||1|1|gemini
-1885|cfa098e8-0bd7-4e4f-be67-9080aa1db621|общий||ГК РФ|310|||1|1|gemini
-1885|cfa098e8-0bd7-4e4f-be67-9080aa1db621|специальный|2463|ПП РФ||13|31.12.2020|1|1|gemini
-1885|cfa098e8-0bd7-4e4f-be67-9080aa1db621|специальный|2300-1|Закон РФ|26.1||07.02.1992|1|1|gemini
+1885|a9383f5a-a751-41f9-b942-fa65f044e9c9|общий||ГПК РФ|112|||3|3|claude;gemini;grok
+1885|a9383f5a-a751-41f9-b942-fa65f044e9c9|специальный||ГПК РФ|321|||3|3|claude;gemini;grok
+1885|a9383f5a-a751-41f9-b942-fa65f044e9c9|специальный||ГПК РФ|327.1|||2|3|gemini;grok
+1885|a9383f5a-a751-41f9-b942-fa65f044e9c9|специальный||ГПК РФ|214|||1|3|grok
+1885|a9383f5a-a751-41f9-b942-fa65f044e9c9|общий||ГПК РФ|209|||1|3|claude
+1885|a9383f5a-a751-41f9-b942-fa65f044e9c9|общий||ГПК РФ|40|||1|3|claude
+1885|a9383f5a-a751-41f9-b942-fa65f044e9c9|общий||ГПК РФ|134|||1|3|claude

@@ -1,5 +1,9 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1577|02736843-ba8c-4f06-a1ad-d1ad148b91c9|общий||Конституция РФ|26|||1|1|gemini
-1577|02736843-ba8c-4f06-a1ad-d1ad148b91c9|специальный|143-ФЗ|ФЗ|69||15.11.1997|1|1|gemini
-1577|02736843-ba8c-4f06-a1ad-d1ad148b91c9|специальный|143-ФЗ|ФЗ|71||15.11.1997|1|1|gemini
-1577|02736843-ba8c-4f06-a1ad-d1ad148b91c9|специальный||ГПК РФ|264|||1|1|gemini
+1577|bfdd0d64-45ce-411d-a7ff-b0748398fb7c|специальный||НК РФ|217|||4|5|gemini;gpt;grok;qwen
+1577|bfdd0d64-45ce-411d-a7ff-b0748398fb7c|специальный||НК РФ|217.1|||4|5|claude;gpt;grok;qwen
+1577|bfdd0d64-45ce-411d-a7ff-b0748398fb7c|специальный||НК РФ|228|||4|5|claude;gpt;grok;qwen
+1577|bfdd0d64-45ce-411d-a7ff-b0748398fb7c|общий||НК РФ|208|||2|5|gpt;grok
+1577|bfdd0d64-45ce-411d-a7ff-b0748398fb7c|специальный||НК РФ|229|||1|5|qwen
+1577|bfdd0d64-45ce-411d-a7ff-b0748398fb7c|общий||НК РФ|210|||1|5|gpt
+1577|bfdd0d64-45ce-411d-a7ff-b0748398fb7c|общий||НК РФ|209|||1|5|grok
+1577|bfdd0d64-45ce-411d-a7ff-b0748398fb7c|специальный|382-ФЗ|ФЗ|4||29.11.2014|1|5|gemini

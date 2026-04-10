@@ -1,6 +1,16 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1473|650efc3e-7c45-4352-9347-43713c9edfd6|общий||СК РФ|34|||1|1|gemini
-1473|650efc3e-7c45-4352-9347-43713c9edfd6|специальный||СК РФ|40|||1|1|gemini
-1473|650efc3e-7c45-4352-9347-43713c9edfd6|специальный||СК РФ|42|||1|1|gemini
-1473|650efc3e-7c45-4352-9347-43713c9edfd6|специальный||ГК РФ|1119|||1|1|gemini
-1473|650efc3e-7c45-4352-9347-43713c9edfd6|специальный||ГК РФ|1137|||1|1|gemini
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|общий||КоАП РФ|30.3|||4|5|gemini;gpt;grok;qwen
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|специальный||КоАП РФ|8.14|||3|5|gemini;grok;qwen
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|общий||КоАП РФ|31.1|||1|5|qwen
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|общий||БК РФ|167|||1|5|qwen
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|общий||КоАП РФ|20.25|||1|5|gpt
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|специальный||ПП РФ||||1|5|gpt
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|общий||КоАП РФ|30.1|||1|5|grok
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|общий||КоАП РФ|30.7|||1|5|grok
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|общий||КоАП РФ|31.7|||1|5|grok
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|общий||НК РФ|210|||1|5|claude
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|специальный||НК РФ|214|||1|5|claude
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|специальный||НК РФ|220|||1|5|claude
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|общий||НК РФ|224|||1|5|claude
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|специальный|289-ПП|ПП РФ||2.5|17.05.2013|1|5|gemini
+1473|662daa8f-b893-48ac-9849-d44ccfccaac8|специальный|289-ПП|ПП РФ||2.6|17.05.2013|1|5|gemini

@@ -1,6 +1,16 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|специальный||СК РФ|60|||1|1|gemini
-1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||СК РФ|34|||1|1|gemini
-1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||СК РФ|35|||1|1|gemini
-1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||ГК РФ|28|||1|1|gemini
-1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||ГК РФ|1112|||1|1|gemini
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||ГК РФ|572|||3|5|claude;gpt;grok
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||СК РФ|34|||3|5|claude;gemini;gpt
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||ГК РФ|574|||2|5|claude;gpt
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||СК РФ|35|||2|5|gemini;gpt
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|специальный||ГК РФ|28|||2|5|gemini;grok
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|специальный||СК РФ|60|||2|5|gemini;grok
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|специальный|2300-1|Закон РФ|32||07.02.1992|1|5|qwen
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||ГК РФ|782|||1|5|qwen
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|специальный|2300-1|Закон РФ|16||07.02.1992|1|5|qwen
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||ГК РФ|15|||1|5|qwen
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|специальный|2300-1|Закон РФ|31||07.02.1992|1|5|qwen
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||ГК РФ|575|||1|5|gpt
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|специальный||ГК РФ|36|||1|5|grok
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||ГК РФ|209|||1|5|grok
+1164|a1a4d147-7e08-402c-a04f-2acfd9c21acb|общий||ГК РФ|1112|||1|5|gemini

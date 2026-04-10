@@ -1,4 +1,11 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-2452|5a80e93c-a678-473e-a0ac-ebcb408beefc|общий||ГК РФ|572|||1|1|gpt
-2452|5a80e93c-a678-473e-a0ac-ebcb408beefc|общий||ГК РФ|574|||1|1|gpt
-2452|5a80e93c-a678-473e-a0ac-ebcb408beefc|специальный|102-ФЗ|ФЗ|37||16.07.1998|1|1|gpt
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|общий||ГК РФ|572|||3|3|claude;gemini;grok
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|специальный||НК РФ|217|||3|3|claude;gemini;grok
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|общий||ГК РФ|1118|||2|3|claude;grok
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|общий||ГК РФ|574|||2|3|claude;gemini
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|специальный|218-ФЗ|ФЗ|14||13.07.2015|1|3|grok
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|специальный||ЗК РФ|37|||1|3|grok
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|общий||ГК РФ|1152|||1|3|claude
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|специальный||НК РФ|333.24|||1|3|claude
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|специальный||ЗК РФ|35|||1|3|gemini
+2452|2de90d6f-2fdb-4a2b-9a92-259bd6eea3a0|специальный||СК РФ|35|||1|3|gemini

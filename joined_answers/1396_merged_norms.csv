@@ -1,5 +1,8 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1396|b9c2aa11-b177-416e-9af9-9e9bb8802ff5|общий|5242-1|Закон РФ|1||25.06.1993|1|1|gemini
-1396|b9c2aa11-b177-416e-9af9-9e9bb8802ff5|общий|5242-1|Закон РФ|6||25.06.1993|1|1|gemini
-1396|b9c2aa11-b177-416e-9af9-9e9bb8802ff5|общий||ГК РФ|20|||1|1|gemini
-1396|b9c2aa11-b177-416e-9af9-9e9bb8802ff5|общий|713|ПП РФ||16|17.07.1995|1|1|gemini
+1396|e618d213-f9b5-4252-a9bf-f65c532c4a33|специальный||ГК РФ|1175|||5|5|claude;gemini;gpt;grok;qwen
+1396|e618d213-f9b5-4252-a9bf-f65c532c4a33|общий||ГК РФ|196|||5|5|claude;gemini;gpt;grok;qwen
+1396|e618d213-f9b5-4252-a9bf-f65c532c4a33|общий||ГК РФ|200|||4|5|claude;gpt;grok;qwen
+1396|e618d213-f9b5-4252-a9bf-f65c532c4a33|общий||ГК РФ|201|||2|5|gemini;qwen
+1396|e618d213-f9b5-4252-a9bf-f65c532c4a33|общий||ГК РФ|199|||2|5|gemini;qwen
+1396|e618d213-f9b5-4252-a9bf-f65c532c4a33|общий||ГК РФ|203|||1|5|qwen
+1396|e618d213-f9b5-4252-a9bf-f65c532c4a33|специальный||ГК РФ|1152|||1|5|grok

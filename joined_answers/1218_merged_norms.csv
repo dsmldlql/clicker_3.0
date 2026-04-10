@@ -1,6 +1,10 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1218|f16ba3cd-ff5f-4258-a5b4-17092b5a51ca|общий||ГК РФ|209|||1|1|gemini
-1218|f16ba3cd-ff5f-4258-a5b4-17092b5a51ca|специальный||СК РФ|60|||1|1|gemini
-1218|f16ba3cd-ff5f-4258-a5b4-17092b5a51ca|специальный|48-ФЗ|ФЗ|21||24.04.2008|1|1|gemini
-1218|f16ba3cd-ff5f-4258-a5b4-17092b5a51ca|специальный|218-ФЗ|ФЗ|42||13.07.2015|1|1|gemini
-1218|f16ba3cd-ff5f-4258-a5b4-17092b5a51ca|общий||НК РФ|217.1|||1|1|gemini
+1218|a3c5bf2c-0038-484c-b01a-ff15cf4eb688|общий||ТК РФ|72.1|||4|5|claude;gemini;grok;qwen
+1218|a3c5bf2c-0038-484c-b01a-ff15cf4eb688|общий||ТК РФ|57|||4|5|claude;gpt;grok;qwen
+1218|a3c5bf2c-0038-484c-b01a-ff15cf4eb688|общий||ТК РФ|21|||4|5|gemini;gpt;grok;qwen
+1218|a3c5bf2c-0038-484c-b01a-ff15cf4eb688|общий||ТК РФ|22|||3|5|gpt;grok;qwen
+1218|a3c5bf2c-0038-484c-b01a-ff15cf4eb688|общий||ТК РФ|72|||3|5|claude;gpt;qwen
+1218|a3c5bf2c-0038-484c-b01a-ff15cf4eb688|общий||ТК РФ|74|||2|5|gpt;grok
+1218|a3c5bf2c-0038-484c-b01a-ff15cf4eb688|общий||ТК РФ|68|||1|5|qwen
+1218|a3c5bf2c-0038-484c-b01a-ff15cf4eb688|общий||ТК РФ|8|||1|5|qwen
+1218|a3c5bf2c-0038-484c-b01a-ff15cf4eb688|общий||ТК РФ|60|||1|5|gemini

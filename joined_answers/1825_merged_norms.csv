@@ -1,4 +1,10 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1825|311483bc-219d-4b4f-bc02-d729cee54b03|общий||НК РФ|229|||1|1|gemini
-1825|311483bc-219d-4b4f-bc02-d729cee54b03|общий||НК РФ|119|||1|1|gemini
-1825|311483bc-219d-4b4f-bc02-d729cee54b03|общий|229-ФЗ|ФЗ|67||02.10.2007|1|1|gemini
+1825|a420ffca-b611-4109-95fc-9a0db06d5560|общий||УПК РФ|144|||4|4|claude;gemini;gpt;grok
+1825|a420ffca-b611-4109-95fc-9a0db06d5560|общий||УПК РФ|145|||3|4|claude;gpt;grok
+1825|a420ffca-b611-4109-95fc-9a0db06d5560|общий||УК РФ|306|||3|4|claude;gemini;gpt
+1825|a420ffca-b611-4109-95fc-9a0db06d5560|общий||УПК РФ|141|||2|4|claude;gpt
+1825|a420ffca-b611-4109-95fc-9a0db06d5560|общий||УПК РФ|125|||2|4|gpt;grok
+1825|a420ffca-b611-4109-95fc-9a0db06d5560|общий||Конституция РФ|51|||1|4|grok
+1825|a420ffca-b611-4109-95fc-9a0db06d5560|специальный||УПК РФ|46|||1|4|grok
+1825|a420ffca-b611-4109-95fc-9a0db06d5560|специальный||УК РФ|330|||1|4|gemini
+1825|a420ffca-b611-4109-95fc-9a0db06d5560|общий||ГК РФ|671|||1|4|gemini

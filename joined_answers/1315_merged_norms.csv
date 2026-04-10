@@ -1,5 +1,17 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1315|6882cabc-33d5-4113-b6ca-d2089944c0ac|общий||СК РФ|61|||1|1|gemini
-1315|6882cabc-33d5-4113-b6ca-d2089944c0ac|специальный||СК РФ|63|||1|1|gemini
-1315|6882cabc-33d5-4113-b6ca-d2089944c0ac|специальный||СК РФ|69|||1|1|gemini
-1315|6882cabc-33d5-4113-b6ca-d2089944c0ac|общий||КоАП РФ|5.35|||1|1|gemini
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий||ГК РФ|572|||5|5|claude;gemini;gpt;grok;qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий||ГК РФ|574|||4|5|claude;gpt;grok;qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|специальный||НК РФ|217|||3|5|gemini;grok;qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий||ГК РФ|1111|||2|5|claude;qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий||ГК РФ|1142|||2|5|grok;qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий||ГК РФ|1154|||2|5|grok;qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий||ГК РФ|1153|||1|5|qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|специальный||НК РФ|217.1|||1|5|qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|специальный|218-ФЗ|ФЗ|14||13.07.2015|1|5|qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|специальный|218-ФЗ|ФЗ|16||13.07.2015|1|5|qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий|4462-1|Основы законодательства Российской Федерации о нотариате|35||11.02.1993|1|5|qwen
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий||ГК РФ|1112|||1|5|gpt
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий||ГК РФ|1120|||1|5|claude
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|специальный||СК РФ|14|||1|5|gemini
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|общий||ГК РФ|1149|||1|5|gemini
+1315|004dedf1-e680-42ee-a0fd-b7625edea4af|специальный||НК РФ|333.24|||1|5|gemini

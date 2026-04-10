@@ -1,3 +1,16 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1270|3c43b9bb-b9e0-436d-8431-746d17d71202|общий||ЗК РФ|39.20|||1|1|gemini
-1270|3c43b9bb-b9e0-436d-8431-746d17d71202|специальный||ЗК РФ|39.3|||1|1|gemini
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|специальный||ГрК РФ|51.1|||4|5|claude;gpt;grok;qwen
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|общий||ГК РФ|222|||3|5|gpt;grok;qwen
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|специальный|218-ФЗ|ФЗ|24||13.07.2015|2|5|gemini;grok
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|специальный|217-ФЗ|ФЗ|3||29.07.2017|2|5|claude;gemini
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|специальный|217-ФЗ|ФЗ|23||29.07.2017|1|5|qwen
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|специальный|218-ФЗ|ФЗ|14||13.07.2015|1|5|qwen
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|специальный|218-ФЗ|ФЗ|41||13.07.2015|1|5|qwen
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|общий||ЗК РФ|7|||1|5|qwen
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|общий||ЗК РФ|42|||1|5|qwen
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|общий||КоАП РФ|9.5|||1|5|qwen
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|общий||ГК РФ|263|||1|5|grok
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|специальный||ЗК РФ|85|||1|5|grok
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|общий||ГрК РФ|51|||1|5|claude
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|общий||ЖК РФ|25|||1|5|gemini
+1270|5db571c3-9d6a-4c13-89e4-0db90bd1bcdf|общий||ГрК РФ|1|||1|5|gemini

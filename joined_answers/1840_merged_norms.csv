@@ -1,5 +1,7 @@
 example_id|uid|norm_type|norm_number|act|article|art_punkt|date|occurrence_count|total_files|models
-1840|3a337575-b0fb-4d44-8a6b-934bb82c4080|общий||ГК РФ|20|||1|1|gemini
-1840|3a337575-b0fb-4d44-8a6b-934bb82c4080|специальный|713|ПП РФ||12|17.07.1995|1|1|gemini
-1840|3a337575-b0fb-4d44-8a6b-934bb82c4080|общий||ЖК РФ|30|||1|1|gemini
-1840|3a337575-b0fb-4d44-8a6b-934bb82c4080|общий|713|ПП РФ||30|17.07.1995|1|1|gemini
+1840|40b30f08-c959-4dee-bf65-f9e9b2757c02|общий||ГК РФ|380|||4|4|claude;gemini;gpt;grok
+1840|40b30f08-c959-4dee-bf65-f9e9b2757c02|общий||ГК РФ|1102|||4|4|claude;gemini;gpt;grok
+1840|40b30f08-c959-4dee-bf65-f9e9b2757c02|общий||ГК РФ|381|||3|4|claude;gpt;grok
+1840|40b30f08-c959-4dee-bf65-f9e9b2757c02|специальный||ГК РФ|550|||2|4|gemini;grok
+1840|40b30f08-c959-4dee-bf65-f9e9b2757c02|общий||ГК РФ|429|||1|4|gpt
+1840|40b30f08-c959-4dee-bf65-f9e9b2757c02|общий||ГК РФ|395|||1|4|gemini
